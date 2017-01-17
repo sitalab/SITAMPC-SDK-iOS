@@ -12,6 +12,7 @@
 		7D86C09F2B1F47464B85B45FC0B35FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		91FDE0195FC55349FF52815413135786 /* Pods-SITAMPC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5598150F99D8A8EF207C9B8FD2681E83 /* Pods-SITAMPC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5A7EAA9FE6B7264421560A580916222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CCF822091E2E4B790056C5E1 /* MPCResourcesBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCF822081E2E3A310056C5E1 /* MPCResourcesBundle.bundle */; };
 		E9DF49D4D58E22EB3A69A8CFBF304053 /* Pods-SITAMPC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FD1D3B0FC754E0D5F670709B91F3A9 /* Pods-SITAMPC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -414,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF822091E2E4B790056C5E1 /* MPCResourcesBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
