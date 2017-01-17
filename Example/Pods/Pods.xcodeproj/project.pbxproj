@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		41684C5AA4A76C2A5F2A2D14F782B418 /* Pods-SITAMPC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1241346465B854DA4183C828605560 /* Pods-SITAMPC_Tests-dummy.m */; };
-		4929FD2E97C2B8047D4B6CD55AB1EA98 /* MPCResourcesBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A384D07376C4F64D1ADABA0176584AB9 /* MPCResourcesBundle.bundle */; };
 		787666922EB12C1CA9B96DFD5FBDA715 /* Pods-SITAMPC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AF4B0356E4FE8B64EEAD3C87A339B3 /* Pods-SITAMPC_Example-dummy.m */; };
 		7D86C09F2B1F47464B85B45FC0B35FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		91FDE0195FC55349FF52815413135786 /* Pods-SITAMPC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5598150F99D8A8EF207C9B8FD2681E83 /* Pods-SITAMPC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,7 +43,7 @@
 		379E2ED162138EC75B460142C996C143 /* Pods-SITAMPC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SITAMPC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		462FD31D0837A3781378B731CE8FAFDB /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		50FD1D3B0FC754E0D5F670709B91F3A9 /* Pods-SITAMPC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SITAMPC_Example-umbrella.h"; sourceTree = "<group>"; };
-		52A94D0EDC2FD5AF32A67B359DD77117 /* Pods_SITAMPC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SITAMPC_Tests.framework; path = "Pods-SITAMPC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A94D0EDC2FD5AF32A67B359DD77117 /* Pods_SITAMPC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SITAMPC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		537688A84EFC04E817937B6A084DBDDB /* MPCAirportsModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCAirportsModal.h; sourceTree = "<group>"; };
 		54A83DA5B09D9B5EFF773CF5150483D1 /* MPCSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCSummary.h; sourceTree = "<group>"; };
 		5598150F99D8A8EF207C9B8FD2681E83 /* Pods-SITAMPC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SITAMPC_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -55,18 +54,17 @@
 		76CA2640D98614AE0FE1661EFE781951 /* MPCFormsTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCFormsTable.h; sourceTree = "<group>"; };
 		79569B5562B89452A96E328757C90A94 /* MPCCountryListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCCountryListViewController.h; sourceTree = "<group>"; };
 		8D787C4B48E9767B59B454DA1BEE3019 /* Pods-SITAMPC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SITAMPC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E046794FAAD69515DE322C780F73BFC /* SITAMPC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SITAMPC.bundle; path = SITAMPC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E046794FAAD69515DE322C780F73BFC /* SITAMPC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SITAMPC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAB2BB97CA6F1040B1A37982C31BC9A /* Pods-SITAMPC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SITAMPC_Example-resources.sh"; sourceTree = "<group>"; };
 		901B7C373166B0A340143EC16DEA2B59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9050AAFCD52137A38A73EA9BFB880686 /* MPCDataModelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCDataModelHandler.h; sourceTree = "<group>"; };
 		91AF4B0356E4FE8B64EEAD3C87A339B3 /* Pods-SITAMPC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SITAMPC_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A384D07376C4F64D1ADABA0176584AB9 /* MPCResourcesBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPCResourcesBundle.bundle; sourceTree = "<group>"; };
-		A3EDE0EC0D94E2A229E12A70644756B9 /* Pods-SITAMPC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SITAMPC_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3EDE0EC0D94E2A229E12A70644756B9 /* Pods-SITAMPC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SITAMPC_Example.modulemap"; sourceTree = "<group>"; };
 		A57A18B3C0773057DCA4862B95FC7450 /* libSITAMPC.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSITAMPC.a; path = SITAMPC/libSITAMPC.a; sourceTree = "<group>"; };
 		AB3BF9981008CC38D07E89B6CC1698BF /* MPCAirlinesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCAirlinesList.h; sourceTree = "<group>"; };
-		ADD1FA6283A0D2CBEE9813A710693E6A /* Pods_SITAMPC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SITAMPC_Example.framework; path = "Pods-SITAMPC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3CADF8AC6118A204636C216BE875C94 /* Pods-SITAMPC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SITAMPC_Tests.modulemap"; sourceTree = "<group>"; };
+		ADD1FA6283A0D2CBEE9813A710693E6A /* Pods_SITAMPC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SITAMPC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CADF8AC6118A204636C216BE875C94 /* Pods-SITAMPC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SITAMPC_Tests.modulemap"; sourceTree = "<group>"; };
 		B59A8254AAD5DC9762EA6133FDE31E9C /* MPCTouchModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCTouchModal.h; sourceTree = "<group>"; };
 		B7017AFC50BBF9B3A17F0732058B2854 /* MPCVisitPurpose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCVisitPurpose.h; sourceTree = "<group>"; };
 		BB7192D491B31523E29F3AD41D9C70A4 /* MPCNoticeDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCNoticeDetails.h; sourceTree = "<group>"; };
@@ -76,6 +74,7 @@
 		C51361D631B2366B90223A33A931B22B /* Pods-SITAMPC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SITAMPC_Tests-resources.sh"; sourceTree = "<group>"; };
 		C5B8F7B15C8BAEBC532ED28FBF4519B1 /* MPCFlowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCFlowManager.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCF822081E2E3A310056C5E1 /* MPCResourcesBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MPCResourcesBundle.bundle; sourceTree = "<group>"; };
 		DB17A82CC1F7498811427324C52702BF /* ResourceBundle-SITAMPC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SITAMPC-Info.plist"; sourceTree = "<group>"; };
 		E37D8F5F7E7D3CF1957BE6EF6EBB6B39 /* Pods-SITAMPC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SITAMPC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E9128BCE5220DBCCD3EAC0C057CF6D4A /* Pods-SITAMPC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SITAMPC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 			children = (
 				5AD1F881035A7E950EEC2D6773E09AC0 /* include */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -134,15 +132,6 @@
 			);
 			name = "Pods-SITAMPC_Tests";
 			path = "Target Support Files/Pods-SITAMPC_Tests";
-			sourceTree = "<group>";
-		};
-		196174A95FCEDCF9B3A59A56FDB3E23B /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A384D07376C4F64D1ADABA0176584AB9 /* MPCResourcesBundle.bundle */,
-			);
-			name = Assets;
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		318C6F1C2CCD8E0A276BF9B29618F974 /* Resources */ = {
@@ -175,7 +164,6 @@
 			children = (
 				E2714C602953AB5245B0A7AEFDA58A4A /* SITAMPC */,
 			);
-			name = include;
 			path = include;
 			sourceTree = "<group>";
 		};
@@ -230,7 +218,6 @@
 			children = (
 				06179171387AF8CE2D27AF282DD50EB6 /* Classes */,
 			);
-			name = SITAMPC;
 			path = SITAMPC;
 			sourceTree = "<group>";
 		};
@@ -252,6 +239,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CCF822071E2E3A310056C5E1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CCF822081E2E3A310056C5E1 /* MPCResourcesBundle.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		CFF4297D5F79DE9BF6E5DA56BF54BE75 /* SITAMPC */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,9 +262,8 @@
 		D02EAA29F56CA9D4EC10425523F5C954 /* SITAMPC */ = {
 			isa = PBXGroup;
 			children = (
-				196174A95FCEDCF9B3A59A56FDB3E23B /* Assets */,
+				CCF822071E2E3A310056C5E1 /* Assets */,
 			);
-			name = SITAMPC;
 			path = SITAMPC;
 			sourceTree = "<group>";
 		};
@@ -310,7 +304,6 @@
 				B7017AFC50BBF9B3A17F0732058B2854 /* MPCVisitPurpose.h */,
 				055363A44E0278EFB674C781D73703E3 /* NamespacedDependencies.h */,
 			);
-			name = SITAMPC;
 			path = SITAMPC;
 			sourceTree = "<group>";
 		};
@@ -421,7 +414,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4929FD2E97C2B8047D4B6CD55AB1EA98 /* MPCResourcesBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
