@@ -130,7 +130,7 @@
 
 -(void)showProfileFormPopulated:(NSDictionary *)scanPassDict;
 @property (strong, nonatomic) NSBundle *rscBundle;
-
+@property (strong, nonatomic) NSString *rscPath;
 
 -(void)resetPasscodes;
 -(void) authenticateUser:(UIViewController *)viewCtrl;

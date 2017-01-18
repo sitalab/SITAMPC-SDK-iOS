@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import "MPCAppDelegate.h"
 
 @interface MPCViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UIButton *customButton;
 
 @end

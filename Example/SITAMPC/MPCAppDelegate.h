@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import "MPCFlowManager.h"
 
 @interface MPCAppDelegate : UIResponder <UIApplicationDelegate>
 

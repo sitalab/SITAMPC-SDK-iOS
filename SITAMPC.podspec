@@ -22,11 +22,12 @@ SITA MPC SDK will provide profile management for all your travellers plus access
   s.source           = { :git => 'https://github.com/sitalab/SITAMPC-SDK-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'SITAMPC/Classes/**/*'
+s.source_files = 'SITAMPC/Classes/**/*'
   s.resource_bundles = {
- 'SITAMPC' => ['SITAMPC/Assets/*','SITAMPC/*.xcdatamodeld']
+ 'SITAMPC' => ['SITAMPC/Assets/**/*']
      }
     s.library = 'z','sqlite3','c++'
     s.frameworks = 'UIKit','SystemConfiguration','CoreData'
     s.vendored_libraries = 'SITAMPC/libSITAMPC.a'
 end
+

@@ -7,11 +7,25 @@
 //
 
 #import "MPCAppDelegate.h"
+#import "MPCViewController.h"
 
 @implementation MPCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [[MPCFlowManager sharedManager] showIntroScreensOnRun:true];
+    
+    [MPCFlowManager sharedManager].showConsoleLogs = true;
+    
+    MPCViewController *mainScreen = [[MPCViewController alloc]init];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:mainScreen];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
