@@ -21,24 +21,13 @@
 }
 
 -(void)initializeMPCManager{
-    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle]
-                                                 pathForResource:@"SITAMPC"
-                                                 ofType:@"bundle"]];
-    
-    NSLog(@"bundle: %@",bundle);
-    
-//    [MPCFlowManager sharedManager].MPC_host = <INSERT MPC_host>;
-//    [MPCFlowManager sharedManager].MPC_apiKey = <INSERT MPC_apiKey>;
-//    [MPCFlowManager sharedManager].MPC_cid = <INSERT MPC_cid>;
-    
-    
-    
-    [[MPCFlowManager sharedManager]flowSetup];
+   
+
     
     NSString *sdkVer = [[MPCFlowManager sharedManager]getSDKversion];
     NSLog(@"sdkVer: %@",sdkVer);
     
-    NSString *btnTitle = @"Run MIA MPC Beta";
+    NSString *btnTitle = @"Run MPC Beta";
     
     NSString *appState = [[MPCFlowManager sharedManager]getAppState];
     NSLog(@"appState: %@",appState);
