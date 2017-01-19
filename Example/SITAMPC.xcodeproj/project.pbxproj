@@ -21,6 +21,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		CC22B4601E30C54F00250B1C /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = CC22B45B1E30C54F00250B1C /* close.png */; };
+		CC22B4611E30C54F00250B1C /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = CC22B45C1E30C54F00250B1C /* Info.png */; };
+		CC22B4621E30C54F00250B1C /* MPCSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = CC22B45D1E30C54F00250B1C /* MPCSplash.png */; };
+		CC22B4631E30C54F00250B1C /* Passengers.png in Resources */ = {isa = PBXBuildFile; fileRef = CC22B45E1E30C54F00250B1C /* Passengers.png */; };
+		CC22B4641E30C54F00250B1C /* passport_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = CC22B45F1E30C54F00250B1C /* passport_overlay.png */; };
 		CCC23EA01E2F48A800632CD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC23E9F1E2F48A800632CD9 /* LaunchScreen.xib */; };
 		CCC23EA21E2F490600632CD9 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC23EA11E2F490600632CD9 /* MPCViewController.xib */; };
 		E664E66D5F99784257927D55 /* Pods_SITAMPC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE735BCB947B52BE8D34EE /* Pods_SITAMPC_Example.framework */; };
@@ -63,6 +68,12 @@
 		90606235726434DBFCCCD129 /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		945A50F2AD6C2C2FF1F65B21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B5A00DE20F3B32BE1FE608B9 /* SITAMPC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SITAMPC.podspec; path = ../SITAMPC.podspec; sourceTree = "<group>"; };
+		CC22B4591E30C42F00250B1C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CC22B45B1E30C54F00250B1C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		CC22B45C1E30C54F00250B1C /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
+		CC22B45D1E30C54F00250B1C /* MPCSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCSplash.png; sourceTree = "<group>"; };
+		CC22B45E1E30C54F00250B1C /* Passengers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Passengers.png; sourceTree = "<group>"; };
+		CC22B45F1E30C54F00250B1C /* passport_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passport_overlay.png; sourceTree = "<group>"; };
 		CCC23E9F1E2F48A800632CD9 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		CCC23EA11E2F490600632CD9 /* MPCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPCViewController.xib; sourceTree = "<group>"; };
 		D3362951A3525DDB6360BEE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -143,6 +154,8 @@
 		6003F593195388D20070C39A /* Example for SITAMPC */ = {
 			isa = PBXGroup;
 			children = (
+				CC22B45A1E30C54F00250B1C /* Resources */,
+				CC22B4591E30C42F00250B1C /* Constants.h */,
 				CCC23E9F1E2F48A800632CD9 /* LaunchScreen.xib */,
 				6003F59C195388D20070C39A /* MPCAppDelegate.h */,
 				6003F59D195388D20070C39A /* MPCAppDelegate.m */,
@@ -194,6 +207,18 @@
 				945A50F2AD6C2C2FF1F65B21 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CC22B45A1E30C54F00250B1C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC22B45B1E30C54F00250B1C /* close.png */,
+				CC22B45C1E30C54F00250B1C /* Info.png */,
+				CC22B45D1E30C54F00250B1C /* MPCSplash.png */,
+				CC22B45E1E30C54F00250B1C /* Passengers.png */,
+				CC22B45F1E30C54F00250B1C /* passport_overlay.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC23EA01E2F48A800632CD9 /* LaunchScreen.xib in Resources */,
+				CC22B4641E30C54F00250B1C /* passport_overlay.png in Resources */,
 				CCC23EA21E2F490600632CD9 /* MPCViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				CC22B4621E30C54F00250B1C /* MPCSplash.png in Resources */,
+				CC22B4631E30C54F00250B1C /* Passengers.png in Resources */,
+				CC22B4611E30C54F00250B1C /* Info.png in Resources */,
+				CC22B4601E30C54F00250B1C /* close.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

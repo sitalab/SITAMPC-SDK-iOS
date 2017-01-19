@@ -21,9 +21,7 @@
 #import "MPCQuestionForm.h"
 #import "MPCVisitPurpose.h"
 #import "MPCFlightInfo.h"
-#import "MPCQueueView.h" 
-
-
+#import "MPCQueueView.h"
 
 @interface MPCFlowManager : NSObject
 
@@ -104,6 +102,7 @@
 @property (strong, nonatomic) NSArray *currentFlowScreens;
 @property (strong, nonatomic) NSArray *currentFlowTemp;
 @property  NSUInteger currentScreenIndex;
+
 
 -(void)showLoadingIndicatorView:(NSString *)loaderMsg;
 -(void)hideLoadingIndicatorView;

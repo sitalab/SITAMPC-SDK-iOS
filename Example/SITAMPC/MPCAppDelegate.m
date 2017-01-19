@@ -18,17 +18,12 @@
     //    [MPCFlowManager sharedManager].MPC_apiKey = <INSERT MPC_apiKey>;
     //    [MPCFlowManager sharedManager].MPC_cid = <INSERT MPC_cid>;
     
-    
-    
     [[MPCFlowManager sharedManager]flowSetup];
+    [[MPCFlowManager sharedManager] showIntroScreensOnRun:false];
+    [MPCFlowManager sharedManager].showConsoleLogs = true;
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    
-    [[MPCFlowManager sharedManager] showIntroScreensOnRun:true];
-    
-    [MPCFlowManager sharedManager].showConsoleLogs = true;
     
     MPCViewController *mainScreen = [[MPCViewController alloc]init];
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:mainScreen];
