@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UITableView *paxTable;
 @property bool showProceedBtn;
 @property bool allowEdit;
+@property bool showNotices;
 @property (strong, nonatomic) NSDictionary *paxScreenDict;
  
 
