@@ -276,7 +276,8 @@
 				ORGANIZATIONNAME = safaakhalaf;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 9X7PMZK7H6;
+						DevelopmentTeam = 5Z4HN8AW3H;
+						ProvisioningStyle = Manual;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -549,7 +550,8 @@
 			baseConfigurationReference = 90606235726434DBFCCCD129 /* Pods-SITAMPC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9X7PMZK7H6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z4HN8AW3H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SITAMPC/SITAMPC-Prefix.pch";
 				INFOPLIST_FILE = "SITAMPC/SITAMPC-Info.plist";
@@ -569,6 +571,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ceb2c37b-d1d7-4f05-8269-045e1262a1f0";
+				PROVISIONING_PROFILE_SPECIFIER = "SITA S.A. In House";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -578,7 +582,8 @@
 			baseConfigurationReference = 3CEFD3950905504DB853CB9E /* Pods-SITAMPC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9X7PMZK7H6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z4HN8AW3H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SITAMPC/SITAMPC-Prefix.pch";
 				INFOPLIST_FILE = "SITAMPC/SITAMPC-Info.plist";
@@ -598,6 +603,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ceb2c37b-d1d7-4f05-8269-045e1262a1f0";
+				PROVISIONING_PROFILE_SPECIFIER = "SITA S.A. In House";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
