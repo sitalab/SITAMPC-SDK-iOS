@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCForgetPasscode : UIViewController <UIAlertViewDelegate>
+@interface MPCForgetPasscode : UIViewController 
 @property bool presentedFromRoot;
 @property (strong,nonatomic) NSString *state;
 @end

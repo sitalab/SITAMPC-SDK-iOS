@@ -9,7 +9,7 @@
 #import "XLFormViewController.h"
 
 
-@interface MPCProfileForm : XLFormViewController <UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIAlertViewDelegate,UIGestureRecognizerDelegate>
+@interface MPCProfileForm : XLFormViewController <UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
 @property(nonatomic,retain) NSString *action;
 @property(nonatomic,retain) NSDictionary *editPaxDict;

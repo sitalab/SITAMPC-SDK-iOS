@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCManageProfiles : UIViewController <UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate,UIAlertViewDelegate,UIGestureRecognizerDelegate>
+@interface MPCManageProfiles : UIViewController <UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate,UIGestureRecognizerDelegate>
 
 
 @property (strong, nonatomic) UIAlertController *addAlertAction;

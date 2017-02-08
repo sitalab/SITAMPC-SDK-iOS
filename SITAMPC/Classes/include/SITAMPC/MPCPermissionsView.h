@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCPermissionsView : UIViewController <UIAlertViewDelegate>
+@interface MPCPermissionsView : UIViewController  
 @property (strong, nonatomic) IBOutlet UIScrollView *permissionScroll;
 
 @property (strong, nonatomic) IBOutlet UIImageView *headerImage;
