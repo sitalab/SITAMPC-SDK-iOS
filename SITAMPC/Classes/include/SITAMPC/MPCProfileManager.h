@@ -15,7 +15,7 @@
 -(NSString *)getCountryISOByName:(NSString*)countryName;
 -(NSString *)getCountryAbbrevByName:(NSString*)countryNam;
 
-
+- (bool) isPassportAccepted:(NSString *)ISO;
 -(NSArray *)getCountryISOArray:(NSArray*)countries;
 
 - (NSString*)formatDate:(NSDate*)date;

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCReceiptPageControl : UIViewController <UIPageViewControllerDataSource,UIActionSheetDelegate,UIScrollViewDelegate>
+@interface MPCReceiptPageControl : UIViewController <UIPageViewControllerDataSource,UIScrollViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIScrollView *containerScroll;
 @property (strong, nonatomic) UIPageViewController *pageController;

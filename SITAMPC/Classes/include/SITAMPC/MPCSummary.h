@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCSummary : UIViewController <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,UIAlertViewDelegate,UIGestureRecognizerDelegate,UIActionSheetDelegate>
+@interface MPCSummary : UIViewController <UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate,UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *summaryTable;
 @property BOOL isMainPoint;
