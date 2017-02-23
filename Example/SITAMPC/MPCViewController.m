@@ -129,12 +129,16 @@ UIButton *customButton;
     [self setButtonState];
 }
 - (void)runDemo{
-    [[MPCFlowManager sharedManager]launch:self];
+    [[MPCFlowManager sharedManager]launch:self statusHandler:^(NSString *statusMsg){
+        NSLog(@"runDemo statusMsg: %@",statusMsg);
+    }];
     [MPCFlowManager sharedManager].currentMPCView.navigationController.delegate = self;
 }
 
 -(void) openPassengerScreen{
-    [[MPCFlowManager sharedManager] showSavedProfiles:self];
+    [[MPCFlowManager sharedManager] showSavedProfiles:self statusHandler:^(NSString *statusMsg){
+        NSLog(@"openPassengerScreen statusMsg: %@",statusMsg);
+    }];
 }
 
 - (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated{

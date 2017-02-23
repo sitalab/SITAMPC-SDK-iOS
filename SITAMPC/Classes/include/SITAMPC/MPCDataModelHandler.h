@@ -14,17 +14,21 @@
 
 -(void)resetTables;
 
--(void)getConfigFromAPI;
+typedef void (^MPCStatusBlock)(NSString *);
+-(void)getConfigFromAPI:(MPCStatusBlock)statusHandler;
+
+-(void) fetchNationalityParameters:(MPCStatusBlock)statusHandler;
 
 -(NSMutableArray *)getFormsFromDB;
 
 -(NSMutableDictionary*)parseTemplateXML;
 
+-(NSArray *)getNatParamFromDB;
 
 -(NSArray *)getNotices;
 -(NSArray *)getAppNotices;
 
--(NSArray *)getNationalities;
+//-(NSArray *)getNationalities;
 -(NSArray *)getAirlines;
 -(NSArray *)getAirports;
 -(BOOL)mixedSelectionAllowed;

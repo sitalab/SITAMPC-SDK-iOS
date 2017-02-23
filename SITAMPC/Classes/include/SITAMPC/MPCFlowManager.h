@@ -25,6 +25,9 @@
 
 @interface MPCFlowManager : NSObject
 
+typedef void (^MPCStatusBlock)(NSString *);
+@property (strong, nonatomic) MPCStatusBlock statusBlock;
+
 @property (strong, nonatomic) UIViewController *currentMPCView;
 +(MPCFlowManager *) sharedManager;
 
@@ -53,6 +56,7 @@
 @property NSString *MPC_keychain;
 @property NSString *MPC_defaultAirport;
 @property NSString *MPC_defaultAirline;
+@property NSUInteger MPC_timeOut;
 
 @property NSDictionary *airportDict;
 @property NSString *airportSelected;
@@ -70,6 +74,7 @@
 @property NSMutableArray *selectedPaxArray;
 
 
+@property (strong, nonatomic) NSMutableArray *configQueueArray;
 @property (strong, nonatomic) NSMutableArray *formQueueArray;
 @property (strong, nonatomic) NSMutableArray *imagesQueueArray;
 
@@ -84,11 +89,11 @@
 -(NSString *)getAppState;
 -(NSUInteger)getSavedPassportsCount;
 
--(void)showSavedProfiles:(UIViewController *)viewCtrl;
+-(void)showSavedProfiles:(UIViewController *)viewCtrl statusHandler:(MPCStatusBlock)statusHandler;
 
 -(NSString *)getSDKversion;
 
--(void)launch:(UIViewController *)ctrl;
+-(void)launch:(UIViewController *)ctrl statusHandler:(MPCStatusBlock)statusHandler;
 
 -(void)registerMPCNotification;
 
