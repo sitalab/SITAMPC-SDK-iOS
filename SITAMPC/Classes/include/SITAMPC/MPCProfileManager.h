@@ -24,6 +24,8 @@
 - (NSMutableArray *)getPassports;
 - (NSMutableArray *)getValidPassports;
 - (NSMutableArray *)getExpiredPassports;
+- (NSMutableArray *)getExpiredPassportImages;
+
 
 - (bool)savePassport: (NSDictionary *)passportDict;
 - (bool)updatePassport: (NSDictionary *)newPassInfo : (NSDictionary*)initialPassDict;
