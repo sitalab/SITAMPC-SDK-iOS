@@ -38,4 +38,6 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(NSMutableArray *)introImages;
 
+-(NSString *)getMandatoryNotice;
+
 @end

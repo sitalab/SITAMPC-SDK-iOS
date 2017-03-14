@@ -22,5 +22,6 @@
 @property  BOOL profilePasscodeEntered;
 
 -(void)removePasswordNotif;
+-(NSDictionary *)parseNotices:(NSString *)noticesElement;
 
 @end

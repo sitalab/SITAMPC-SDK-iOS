@@ -139,4 +139,6 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(void)resetPasscodes;
 -(void) authenticateUser:(UIViewController *)viewCtrl;
 
+-(void)noticesAcknowledged;
+
 @end
