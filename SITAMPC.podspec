@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SITAMPC'
-  s.version          = '2.18'
+  s.version          = '2.19'
   s.summary          = 'SITAMPC SDK'
 
   s.description      = <<-DESC
