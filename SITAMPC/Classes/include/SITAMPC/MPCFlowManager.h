@@ -19,8 +19,7 @@
 #import "MPCForgetPasscode.h"
 #import "MPCManageProfiles.h"
 #import "MPCQuestionForm.h"
-#import "MPCVisitPurpose.h"
-#import "MPCFlightInfo.h"
+#import "MPCOptionsForm.h"
 #import "MPCQueueView.h"
 
 @interface MPCFlowManager : NSObject
@@ -58,13 +57,21 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property NSString *MPC_defaultAirline;
 @property NSUInteger MPC_timeOut;
 
+
+@property UIColor *MPCPrimaryColor;
+@property UIColor *MPCSecondaryColor;
+@property NSString *defaultImg;
+
+
 @property NSDictionary *airportDict;
 @property NSString *airportSelected;
 @property NSString *airlineSelected;
-@property NSString *numPax;
-@property NSDictionary *purposeOfVisitDict;
+@property NSString *flightNumSelected;
 
-@property NSString *purpose_visit;
+@property NSString *numPax;
+@property NSMutableDictionary *purposeOfVisitDict;
+
+//@property NSString *purpose_visit;
 @property NSString *ready_state;
 @property NSDate *reminderDate;
 
@@ -141,4 +148,6 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(void)noticesAcknowledged;
 
+
+-(NSArray *)getExpectedArray;
 @end

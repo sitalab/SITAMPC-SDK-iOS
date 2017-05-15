@@ -40,4 +40,9 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(NSString *)getMandatoryNotice;
 
+-(void)setAssetAttributes;
+
+
+-(NSString *)getAirlineCodeFromName:(NSString *)airlineName;
+
 @end
