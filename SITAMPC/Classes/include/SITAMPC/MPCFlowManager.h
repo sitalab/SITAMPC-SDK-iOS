@@ -56,7 +56,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property NSString *MPC_defaultAirport;
 @property NSString *MPC_defaultAirline;
 @property NSUInteger MPC_timeOut;
-
+@property NSString *MPC_locale;
 
 @property UIColor *MPCPrimaryColor;
 @property UIColor *MPCSecondaryColor;
@@ -139,7 +139,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(void)appEnteredForeground;
 -(void)appEnteredBackground;
 
--(void)showProfileFormPopulated:(NSDictionary *)scanPassDict;
+-(void)showProfileFormPopulated:(NSDictionary *)scanPassDict statusHandler:(MPCStatusBlock)statusHandler;
 @property (strong, nonatomic) NSBundle *rscBundle;
 @property (strong, nonatomic) NSString *rscPath;
 
@@ -148,6 +148,6 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(void)noticesAcknowledged;
 
-
+-(void)changeLanguage;
 -(NSArray *)getExpectedArray;
 @end

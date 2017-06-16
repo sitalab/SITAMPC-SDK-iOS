@@ -24,6 +24,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(NSMutableDictionary*)parseTemplateXML;
 
 -(NSArray *)getNatParamFromDB;
+-(NSArray *)getNationality_Visa;
 
 -(NSArray *)getNotices;
 -(NSArray *)getAppNotices;

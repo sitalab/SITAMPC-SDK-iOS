@@ -8,9 +8,9 @@
 
 #import "XLFormViewController.h"
 
-
 @interface MPCProfileForm : XLFormViewController <UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
+@property (strong, nonatomic) UIAlertController *scanAlertAction;
 @property(nonatomic,retain) NSString *action;
 @property(nonatomic,retain) NSDictionary *editPaxDict;
 @property(nonatomic,retain) NSDictionary *scanPassDict;
@@ -19,5 +19,7 @@
 @property(nonatomic,strong) NSString *timestamp;
 @property(nonatomic,strong) NSString *duration;
 
+-(void)populateScannedVisa:(NSDictionary *)scanVisaDict statusHandler:(MPCStatusBlock)statusHandler;
+-(void)update;
 
 @end
