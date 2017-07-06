@@ -69,16 +69,16 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property NSString *flightNumSelected;
 
 @property NSString *numPax;
-@property NSMutableDictionary *purposeOfVisitDict;
+@property NSMutableDictionary *inputOrOptionsQuest;
 
 //@property NSString *purpose_visit;
 @property NSString *ready_state;
 @property NSDate *reminderDate;
-
-
+ 
 @property NSString *notificationMsg;
 
 @property NSMutableArray *selectedPaxArray;
+@property NSMutableArray *scanVisaActions;
 
 
 @property (strong, nonatomic) NSMutableArray *configQueueArray;
@@ -140,6 +140,9 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(void)appEnteredBackground;
 
 -(void)showProfileFormPopulated:(NSDictionary *)scanPassDict statusHandler:(MPCStatusBlock)statusHandler;
+-(void)populateScannedVisa:(NSDictionary *)scanVisaDict statusHandler:(MPCStatusBlock)statusHandler;
+-(void)updateVisaRows;
+
 @property (strong, nonatomic) NSBundle *rscBundle;
 @property (strong, nonatomic) NSString *rscPath;
 
@@ -150,4 +153,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(void)changeLanguage;
 -(NSArray *)getExpectedArray;
+
+-(NSArray *)getSupportedLanguages;
+
 @end
