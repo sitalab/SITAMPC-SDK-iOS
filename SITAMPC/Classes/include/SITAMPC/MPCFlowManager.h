@@ -22,6 +22,8 @@
 #import "MPCOptionsForm.h"
 #import "MPCQueueView.h"
 
+
+
 @interface MPCFlowManager : NSObject
 
 typedef void (^MPCStatusBlock)(NSString *);
@@ -71,6 +73,9 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property NSString *numPax;
 @property NSMutableDictionary *inputOrOptionsQuest;
 
+@property NSData *signatureImgData;
+@property NSString *signatureFooter;
+
 //@property NSString *purpose_visit;
 @property NSString *ready_state;
 @property NSDate *reminderDate;
@@ -113,12 +118,11 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 @property (strong, nonatomic) NSArray *currentFlowScreens;
 @property (strong, nonatomic) NSArray *currentFlowTemp;
-@property  NSUInteger currentScreenIndex;
-
+@property  NSUInteger currentScreenIndex; 
 
 -(void)showLoadingIndicatorView:(NSString *)loaderMsg;
 -(void)hideLoadingIndicatorView;
--(void)navigateToNextScreen:(UIViewController *)viewCtrl;
+-(void)navigateToNextScreen:(UIViewController *)viewCtrl executeCurrentControls:(bool)checkCurrentControls;
 @property (strong, nonatomic) NSDictionary *completeTemplateDict;
 
 -(void)setScreenIndex:(NSString *)screen_index;
