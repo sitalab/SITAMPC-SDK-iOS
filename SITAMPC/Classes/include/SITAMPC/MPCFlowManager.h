@@ -23,7 +23,6 @@
 #import "MPCQueueView.h"
 
 
-
 @interface MPCFlowManager : NSObject
 
 typedef void (^MPCStatusBlock)(NSString *);
@@ -73,10 +72,12 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property NSString *numPax;
 @property NSMutableDictionary *inputOrOptionsQuest;
 
-@property NSData *signatureImgData;
-@property NSString *signatureFooter;
 
-//@property NSString *purpose_visit;
+@property (strong, nonatomic) NSMutableDictionary *countriesVisitedDict;
+
+@property (strong, nonatomic) NSMutableDictionary *signatureInfoDict;
+
+
 @property NSString *ready_state;
 @property NSDate *reminderDate;
  
