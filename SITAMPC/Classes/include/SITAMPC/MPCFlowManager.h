@@ -40,6 +40,8 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property (strong, nonatomic) UIImageView *backgroundImageView;
 @property (strong, nonatomic) NSMutableDictionary *answeredQuest;
 
+@property (strong, nonatomic) NSMutableDictionary *tableFormDict;
+
 @property (strong, nonatomic) NSTimer *loadingTimer;
 @property (strong, nonatomic) UIView *loadingView;
 @property CGRect screenRect;

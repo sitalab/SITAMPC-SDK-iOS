@@ -27,7 +27,6 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(NSArray *)getNationality_Visa;
 
 -(NSArray *)getNotices;
--(NSArray *)getAppNotices;
 
 
 -(NSArray *)getTopCountries;
@@ -42,7 +41,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(NSMutableArray *)introImages;
 
--(NSString *)getMandatoryNotice;
+-(NSArray *)getMandatoryNotice;
 
 -(void)setAssetAttributes;
 

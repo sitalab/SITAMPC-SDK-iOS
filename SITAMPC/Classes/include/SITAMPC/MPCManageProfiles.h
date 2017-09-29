@@ -18,5 +18,6 @@
 @property bool showMPCProfiles;
 @property (strong, nonatomic) NSDictionary *paxScreenDict;
  
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *btmConstarint;
 
 @end
