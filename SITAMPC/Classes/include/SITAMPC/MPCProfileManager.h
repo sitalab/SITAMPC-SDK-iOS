@@ -10,6 +10,7 @@
 
 @interface MPCProfileManager : NSObject
 
+- (NSMutableArray *) getAllCountriesArray;
 - (NSMutableArray *) getCountriesArray;
 -(NSString *)getCountryNameByISO:(NSString*)iso;
 -(NSString *)getCountryISOByName:(NSString*)countryName;
