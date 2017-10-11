@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCFormsTable : UIViewController <UITableViewDelegate,UITableViewDataSource>
+@interface MPCFormsTable : UIViewController <UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *formsTable;
 @property (strong, nonatomic) NSMutableArray *formTemplatesArray;
+
+@property (strong, nonatomic) NSString *btnAction;
 
 @end

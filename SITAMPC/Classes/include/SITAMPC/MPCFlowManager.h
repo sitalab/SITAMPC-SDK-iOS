@@ -163,4 +163,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(NSArray *)getSupportedLanguages;
 
+
+-(void)displayManageProfiles;
+
 @end

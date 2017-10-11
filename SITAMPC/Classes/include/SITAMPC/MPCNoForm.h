@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPCNoForm : UIViewController
+@interface MPCNoForm : UIViewController <UIGestureRecognizerDelegate>
  
 
 @end

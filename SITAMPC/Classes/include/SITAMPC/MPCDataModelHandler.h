@@ -15,9 +15,8 @@
 -(void)resetTables;
 
 typedef void (^MPCStatusBlock)(NSString *);
--(void)getConfigFromAPI:(MPCStatusBlock)statusHandler;
-
--(void) fetchNationalityParameters:(MPCStatusBlock)statusHandler;
+-(void)getConfigFromAPI:(MPCStatusBlock)statusHandler action:(NSString*)action;
+ 
 
 -(NSMutableArray *)getFormsFromDB;
 
@@ -47,5 +46,9 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 
 -(NSString *)getAirlineCodeFromName:(NSString *)airlineName;
+
+
+-(NSDictionary *)getConfigByFormId;
+
 
 @end
