@@ -166,4 +166,8 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 -(void)displayManageProfiles;
 
+
+- (void)applyNavBarConstraints:(UIButton*)btn width:(CGFloat)width height:(CGFloat)height;
+
+
 @end

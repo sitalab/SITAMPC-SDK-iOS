@@ -17,6 +17,10 @@
 @property (strong, nonatomic) UISearchBar *searchBar;
 @property (strong, nonatomic) NSMutableArray *listOfCountries;
 @property (nonatomic,assign) NSString *searchTitle;
+
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *btmConstraint;
+
 @end
  
 
