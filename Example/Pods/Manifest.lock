@@ -1,5 +1,5 @@
 PODS:
-  - SITAMPC (3.10)
+  - SITAMPC (3.11)
 
 DEPENDENCIES:
   - SITAMPC (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SITAMPC: 59b99d65eb28dbe4ea016c1bd41994aeaf11f99f
+  SITAMPC: cfaa7fe1c0d1952a81442dfb901a86cd7dd0b5bd
 
 PODFILE CHECKSUM: 7f0bb4a581179cdb5d74e8c8a5695a9ec55e7ded
 
