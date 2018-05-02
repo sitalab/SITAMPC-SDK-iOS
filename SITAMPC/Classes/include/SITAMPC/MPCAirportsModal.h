@@ -14,8 +14,10 @@
 @interface MPCAirportsModal : UIViewController<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
 
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *btmConstraint;
+
 @property (strong, nonatomic) IBOutlet UITableView *airportsTable;
-@property (strong, nonatomic) IBOutlet UISearchBar *searchbar;
+@property (strong, nonatomic) UISearchBar *searchbar;
  
 @property (strong, nonatomic) NSMutableArray* filteredTableData;
 @property (assign, nonatomic) BOOL isFiltered;

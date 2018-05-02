@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SITAMPC_Example' do
-  pod 'SITAMPC', :path => '../'
+ pod 'SITAMPC', :path => '../'
 
   target 'SITAMPC_Tests' do
     inherit! :search_paths

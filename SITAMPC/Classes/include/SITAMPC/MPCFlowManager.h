@@ -25,6 +25,13 @@
 
 @interface MPCFlowManager : NSObject
 
+@property CGRect buttonFrame;
+@property float buttonHeight;
+@property CGFloat bottomPadding;
+@property float statusBarHeight;
+@property float navHeight;
+@property float totalBarHeight;
+
 typedef void (^MPCStatusBlock)(NSString *);
 @property (strong, nonatomic) MPCStatusBlock statusBlock;
 
