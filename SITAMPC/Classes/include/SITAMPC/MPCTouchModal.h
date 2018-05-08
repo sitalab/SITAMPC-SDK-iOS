@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topConstraint;
 @property (weak, nonatomic) IBOutlet UIStackView *btnStack;
 
+@property (weak, nonatomic) IBOutlet UIView *imgContentView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *imgH;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *imgW;
 @property (weak, nonatomic) IBOutlet UIStackView *lblStack;
