@@ -11,7 +11,6 @@
 @interface MPCReadyView : UIViewController <UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate,NSURLSessionDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *readyTable;
-@property (strong, nonatomic) NSDictionary *readyDict;
-@property (strong, nonatomic) NSString *randomIdentifier;
+@property (strong, nonatomic) NSDictionary *readyDict; 
 
 @end

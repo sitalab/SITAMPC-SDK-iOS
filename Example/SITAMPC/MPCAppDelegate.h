@@ -9,7 +9,7 @@
 @import UIKit;
 #import "MPCFlowManager.h"
 
-@interface MPCAppDelegate : UIResponder <UIApplicationDelegate>
+@interface MPCAppDelegate : UIResponder <UIApplicationDelegate,MPCFlowDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

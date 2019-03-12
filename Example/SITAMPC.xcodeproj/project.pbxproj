@@ -67,7 +67,7 @@
 		7DB415B8E4BA076749718790 /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90606235726434DBFCCCD129 /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		945A50F2AD6C2C2FF1F65B21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B5A00DE20F3B32BE1FE608B9 /* SITAMPC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SITAMPC.podspec; path = ../SITAMPC.podspec; sourceTree = "<group>"; };
+		B5A00DE20F3B32BE1FE608B9 /* SITAMPC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SITAMPC.podspec; path = ../SITAMPC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC22B4591E30C42F00250B1C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		CC22B45B1E30C54F00250B1C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		CC22B45C1E30C54F00250B1C /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };

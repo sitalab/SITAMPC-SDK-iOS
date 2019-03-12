@@ -34,6 +34,10 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(NSArray *)getAirlines;
 -(NSArray *)getAirports;
 -(BOOL)mixedSelectionAllowed;
+-(BOOL)noManualEntry;
+-(BOOL)noPhotoLibrary;
+-(BOOL)singleProfile;
+-(BOOL)customReceipt;
 
 -(NSDictionary *)getAirlineDict:(NSString *)airlineCode;
 -(NSDictionary *)getAirportDict:(NSString *)airportCode;
@@ -49,6 +53,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 
 -(NSDictionary *)getConfigByFormId;
+-(NSArray *)getBannedCountries;
 
 
 @end

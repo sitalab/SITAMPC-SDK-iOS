@@ -325,23 +325,23 @@
 //#ifndef VENTouchLockEnterPasscodeViewController
 //#define VENTouchLockEnterPasscodeViewController __NS_SYMBOL(VENTouchLockEnterPasscodeViewController)
 //#endif
-// 
+//
 //#ifndef VENTouchLockPasscodeCharacterView
 //#define VENTouchLockPasscodeCharacterView __NS_SYMBOL(VENTouchLockPasscodeCharacterView)
 //#endif
-
+//
 //#ifndef VENTouchLockPasscodeView
 //#define VENTouchLockPasscodeView __NS_SYMBOL(VENTouchLockPasscodeView)
 //#endif
-
+//
 //#ifndef VENTouchLockPasscodeViewController
 //#define VENTouchLockPasscodeViewController __NS_SYMBOL(VENTouchLockPasscodeViewController)
 //#endif
-
+//
 //#ifndef VENTouchLockSplashViewController
 //#define VENTouchLockSplashViewController __NS_SYMBOL(VENTouchLockSplashViewController)
 //#endif
-
+//
 //#ifndef VENTouchLockEnterPasscodeUserDefaultsKeyNumberOfConsecutivePasscodeAttempts
 //#define VENTouchLockEnterPasscodeUserDefaultsKeyNumberOfConsecutivePasscodeAttempts __NS_SYMBOL(VENTouchLockEnterPasscodeUserDefaultsKeyNumberOfConsecutivePasscodeAttempts)
 //#endif

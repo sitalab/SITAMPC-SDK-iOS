@@ -8,9 +8,8 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import <CoreLocation/CoreLocation.h>
 #import <Foundation/Foundation.h>
-
 #import "MPCProfileManager.h"
 #import "MPCTripsManager.h"
 #import "MPCDataModelHandler.h"
@@ -23,7 +22,19 @@
 #import "MPCQueueView.h"
 
 
-@interface MPCFlowManager : NSObject
+@protocol MPCFlowDelegate <NSObject>
+- (void) showCustomReceipt:(NSDictionary *)receiptDic expiryDate:(NSDate *)expDate;
+@end
+
+
+@interface MPCFlowManager : NSObject <CLLocationManagerDelegate>
+
+
+@property (nonatomic, assign) id <MPCFlowDelegate> delegate;
+@property (strong, nonatomic) CLLocationManager *locationManager;
+@property (strong, nonatomic) CLLocation * currentLocation;
+-(void)initializeLocManager;
+
 
 @property CGRect buttonFrame;
 @property float buttonHeight;
@@ -83,6 +94,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 
 @property (strong, nonatomic) NSMutableDictionary *countriesVisitedDict;
+@property (strong, nonatomic) NSMutableDictionary *countrySelectedDict;
 
 @property (strong, nonatomic) NSMutableDictionary *signatureInfoDict;
 
@@ -110,6 +122,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(void)initializeFormTemplate:(UIViewController *)currentViewCtrl;
 -(NSString *)getAppState;
 -(NSUInteger)getSavedPassportsCount;
+-(NSDate *)convertToDate:(NSString *)dateStr;
 
 -(void)showSavedProfiles:(UIViewController *)viewCtrl statusHandler:(MPCStatusBlock)statusHandler;
 
@@ -147,7 +160,11 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property (strong, nonatomic) NSMutableArray *orderedScreenId;
  
 @property (strong, nonatomic) NSDictionary *paxScreenDict;
- 
+
+@property (strong, nonatomic)  NSDictionary *currentScreenDic;
+
+-(void)deleteTrip;
+-(void)submitFormCheckBanned;
 -(void)tutorialDismissed;
   
 -(void)appEnteredForeground;
@@ -178,3 +195,4 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 
 @end
+

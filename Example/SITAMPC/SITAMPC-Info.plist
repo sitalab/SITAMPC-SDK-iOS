@@ -49,5 +49,14 @@
 	<string>To pick a photo from your photo library</string>
 	<key>NSCameraUsageDescription</key>
 	<string>To be able to take photos and scan your passport</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>As a security precaution, this application requires your location information to submit forms.  Please allow this application to access your location.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Face Recognition desc</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

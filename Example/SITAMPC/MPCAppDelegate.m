@@ -12,13 +12,12 @@
 @implementation MPCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{ 
-    
+{  
     //    [MPCFlowManager sharedManager].MPC_host = <INSERT MPC_host>;
     //    [MPCFlowManager sharedManager].MPC_apiKey = <INSERT MPC_apiKey>;
     //    [MPCFlowManager sharedManager].MPC_cid = <INSERT MPC_cid>;
  
-    
+    [MPCFlowManager sharedManager].delegate = self;
     [[MPCFlowManager sharedManager]flowSetup];
     [[MPCFlowManager sharedManager] showIntroScreensOnRun:false];
     [MPCFlowManager sharedManager].showConsoleLogs = true;
@@ -34,6 +33,15 @@
     return YES;
 }
 
+
+#pragma-mark MPCFlowDelegate Function
+- (void) showCustomReceipt:(NSDictionary *)receiptDic expiryDate:(NSDate *)expdate{
+    NSLog(@"showCustomReceipt: %@\nexpdate: %@",receiptDic,expdate);
+    
+   
+}
+
+#pragma-mark AppDelegate
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
