@@ -191,8 +191,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 -(void)displayManageProfiles;
 
 
-- (void)applyNavBarConstraints:(UIButton*)btn width:(CGFloat)width height:(CGFloat)height;
-
-
+-(void)applyNavBarConstraints:(UIButton*)btn width:(CGFloat)width height:(CGFloat)height;
+-(NSDictionary*) getTripReceipt;
 @end
 

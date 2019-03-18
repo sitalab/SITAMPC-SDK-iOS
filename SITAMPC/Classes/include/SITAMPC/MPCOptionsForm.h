@@ -1,5 +1,5 @@
 //
-//  MPCOptionsForm.h
+//  MPCPhoneForm.h
 //  MPC
 //
 //  Created by Apple on 03/06/16.
@@ -11,7 +11,7 @@
 @interface MPCOptionsForm : UIViewController <UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *visitTable;
-@property (strong, nonatomic) NSDictionary *visitDict;
-@property (strong, nonatomic) NSDictionary *visitQuestPost;
+@property (strong, nonatomic) NSDictionary *optionsDict;
+@property (strong, nonatomic) NSDictionary *optionsQuestPost;
 
 @end
