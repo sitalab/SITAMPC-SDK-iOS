@@ -43,8 +43,12 @@
 @property float navHeight;
 @property float totalBarHeight;
 
+
+typedef void (^MPCListFormBlock)(NSArray *);
+-(void)listFormTemplates:(MPCListFormBlock)formListHandler;
+
 typedef void (^MPCStatusBlock)(NSString *);
-@property (strong, nonatomic) MPCStatusBlock statusBlock;
+typedef void (^ResetCompletionBlock)(bool);
 
 @property (strong, nonatomic) UIViewController *currentMPCView;
 +(MPCFlowManager *) sharedManager;
@@ -78,16 +82,12 @@ typedef void (^MPCStatusBlock)(NSString *);
 @property NSString *MPC_defaultAirline;
 @property NSUInteger MPC_timeOut;
 @property NSString *MPC_locale;
-
+@property NSString *MPC_selectedFormURL;
 @property UIColor *MPCPrimaryColor;
 @property UIColor *MPCSecondaryColor;
 @property NSString *defaultImg;
 
-
-@property NSDictionary *airportDict;
-@property NSString *airportSelected;
-@property NSString *airlineSelected;
-@property NSString *flightNumSelected;
+@property NSDictionary *flifoDict; 
 
 @property NSString *numPax;
 @property NSMutableDictionary *inputOrOptionsQuest;
@@ -163,6 +163,7 @@ typedef void (^MPCStatusBlock)(NSString *);
 
 @property (strong, nonatomic)  NSDictionary *currentScreenDic;
 
+-(void)resetApp:(ResetCompletionBlock)finished;
 -(void)deleteTrip;
 -(void)submitFormCheckBanned;
 -(void)tutorialDismissed;

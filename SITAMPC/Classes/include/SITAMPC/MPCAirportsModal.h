@@ -10,10 +10,12 @@
 
 
 
+@protocol AirportDelegate;
 
 @interface MPCAirportsModal : UIViewController<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate>
 
 
+@property (nonatomic, assign) id <AirportDelegate> delegate;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *btmConstraint;
 
 @property (strong, nonatomic) IBOutlet UITableView *airportsTable;
@@ -24,6 +26,12 @@
 @property (assign, nonatomic) NSString *flag;
 @property NSString *departureCode;
 
+@property NSString *cellTag;
+@property NSString *search_placeholder;
 @end
 
 
+
+@protocol AirportDelegate <NSObject>
+- (void) airportSelected: (NSDictionary *)airportDic cellTag:(NSString *)cellTag;
+@end

@@ -11,6 +11,7 @@
 
 @interface MPCTripsManager : NSObject
 
+-(UIView *)globalNavTitleView;
 -(UIButton*)customButtonWithFrame:(CGRect)frame title:(NSString*)title;
 -(UIView *)customNavTitle:(CGRect)viewFrame lbl1:(NSString*)lbl1 lbl2:(NSString*)lbl2 textColor:(UIColor *)color;
 -(BOOL) isValidObject:(id)parameter expectedClass:(__unsafe_unretained Class)expectedClass;
