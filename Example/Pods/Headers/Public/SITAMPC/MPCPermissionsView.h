@@ -1,1 +1,1 @@
-../../../../../SITAMPC/Classes/SITAMPC/MPCPermissionsView.h
+../../../../../SITAMPC/Classes/include/SITAMPC/MPCPermissionsView.h
