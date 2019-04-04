@@ -1,1 +1,1 @@
-../../../../../SITAMPC/Classes/include/SITAMPC/MPCReadyView.h
+../../../../../SITAMPC/Classes/SITAMPC/MPCReadyView.h

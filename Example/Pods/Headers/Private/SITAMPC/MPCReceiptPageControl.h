@@ -1,1 +1,1 @@
-../../../../../SITAMPC/Classes/include/SITAMPC/MPCReceiptPageControl.h
+../../../../../SITAMPC/Classes/SITAMPC/MPCReceiptPageControl.h
