@@ -63,6 +63,7 @@ typedef void (^ResetCompletionBlock)(bool);
 @property (strong, nonatomic) NSMutableDictionary *answeredQuest;
 
 @property (strong, nonatomic) NSMutableDictionary *tableFormDict;
+@property (strong, nonatomic) NSDictionary *summaryDict ;
 
 @property (strong, nonatomic) NSTimer *loadingTimer;
 @property (strong, nonatomic) UIView *loadingView;

@@ -38,4 +38,7 @@
 - (bool)saveTrip: (NSDictionary *)tripDict;
 - (bool)updateTrip: (NSDictionary *)newTripInfo : (NSDictionary*)initialTripDict;
 
+-(void)savePreparedForm;
+-( NSMutableDictionary *)getTripDict;
+
 @end
