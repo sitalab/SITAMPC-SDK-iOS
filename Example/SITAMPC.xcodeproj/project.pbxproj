@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		448375A7858143C5A3837220 /* Pods_SITAMPC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7A635A23D326F4B54A6045 /* Pods_SITAMPC_Tests.framework */; };
+		3AEF88C764958CB96A288F43 /* libPods-SITAMPC_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 080D589915F143D084BB8241 /* libPods-SITAMPC_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -28,7 +28,7 @@
 		CC22B4641E30C54F00250B1C /* passport_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = CC22B45F1E30C54F00250B1C /* passport_overlay.png */; };
 		CCC23EA01E2F48A800632CD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC23E9F1E2F48A800632CD9 /* LaunchScreen.xib */; };
 		CCC23EA21E2F490600632CD9 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC23EA11E2F490600632CD9 /* MPCViewController.xib */; };
-		E664E66D5F99784257927D55 /* Pods_SITAMPC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE735BCB947B52BE8D34EE /* Pods_SITAMPC_Example.framework */; };
+		F706AC6E030DE6876079DCB2 /* libPods-SITAMPC_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6141D1CF5DC4B13D225E73 /* libPods-SITAMPC_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02AE735BCB947B52BE8D34EE /* Pods_SITAMPC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SITAMPC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2540FDB8DD806F0AE4919252 /* Pods-SITAMPC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3CEFD3950905504DB853CB9E /* Pods-SITAMPC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		080D589915F143D084BB8241 /* libPods-SITAMPC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SITAMPC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6141D1CF5DC4B13D225E73 /* libPods-SITAMPC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SITAMPC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD728A8C2B6B032C7A51392 /* Pods-SITAMPC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.release.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SITAMPC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITAMPC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* SITAMPC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SITAMPC-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* SITAMPC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SITAMPC-Prefix.pch"; sourceTree = "<group>"; };
@@ -64,9 +64,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7DB415B8E4BA076749718790 /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		90606235726434DBFCCCD129 /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		614849B85CF61B0AF65F266E /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.release.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		945A50F2AD6C2C2FF1F65B21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AFF58B0E6555F73BF62245BC /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5A00DE20F3B32BE1FE608B9 /* SITAMPC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SITAMPC.podspec; path = ../SITAMPC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC22B4591E30C42F00250B1C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		CC22B45B1E30C54F00250B1C /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		CCC23E9F1E2F48A800632CD9 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		CCC23EA11E2F490600632CD9 /* MPCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPCViewController.xib; sourceTree = "<group>"; };
 		D3362951A3525DDB6360BEE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EF7A635A23D326F4B54A6045 /* Pods_SITAMPC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SITAMPC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAE847B917D954B2082FD91 /* Pods-SITAMPC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				E664E66D5F99784257927D55 /* Pods_SITAMPC_Example.framework in Frameworks */,
+				3AEF88C764958CB96A288F43 /* libPods-SITAMPC_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,24 +99,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				448375A7858143C5A3837220 /* Pods_SITAMPC_Tests.framework in Frameworks */,
+				F706AC6E030DE6876079DCB2 /* libPods-SITAMPC_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AB10C58316BA24BF555C988 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				90606235726434DBFCCCD129 /* Pods-SITAMPC_Example.debug.xcconfig */,
-				3CEFD3950905504DB853CB9E /* Pods-SITAMPC_Example.release.xcconfig */,
-				2540FDB8DD806F0AE4919252 /* Pods-SITAMPC_Tests.debug.xcconfig */,
-				7DB415B8E4BA076749718790 /* Pods-SITAMPC_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +114,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				1AB10C58316BA24BF555C988 /* Pods */,
+				9AFB52F28D56BE21F56E70AD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				02AE735BCB947B52BE8D34EE /* Pods_SITAMPC_Example.framework */,
-				EF7A635A23D326F4B54A6045 /* Pods_SITAMPC_Tests.framework */,
+				080D589915F143D084BB8241 /* libPods-SITAMPC_Example.a */,
+				3A6141D1CF5DC4B13D225E73 /* libPods-SITAMPC_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,7 +161,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* SITAMPC-Info.plist */,
+				6003F595195388D20070C39A /* Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* SITAMPC-Prefix.pch */,
@@ -209,6 +198,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9AFB52F28D56BE21F56E70AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF58B0E6555F73BF62245BC /* Pods-SITAMPC_Example.debug.xcconfig */,
+				3CD728A8C2B6B032C7A51392 /* Pods-SITAMPC_Example.release.xcconfig */,
+				EBAE847B917D954B2082FD91 /* Pods-SITAMPC_Tests.debug.xcconfig */,
+				614849B85CF61B0AF65F266E /* Pods-SITAMPC_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC22B45A1E30C54F00250B1C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,11 +228,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SITAMPC_Example" */;
 			buildPhases = (
-				4B1671172CB7D7F8AAABDBD9 /* [CP] Check Pods Manifest.lock */,
+				F67BFB866937796166A0A0BF /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A255978D05BEEB3B06D2CEC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SITAMPC_Tests" */;
 			buildPhases = (
-				8C9091772FB7FE224224F8E6 /* [CP] Check Pods Manifest.lock */,
+				69E552F52F979299402FB15E /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -269,7 +268,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MPC;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = safaakhalaf;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
@@ -283,7 +282,7 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "SITAMPC" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -328,34 +327,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B1671172CB7D7F8AAABDBD9 /* [CP] Check Pods Manifest.lock */ = {
+		69E552F52F979299402FB15E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SITAMPC_Example-checkManifestLockResult.txt",
+			outputFileListPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C9091772FB7FE224224F8E6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SITAMPC_Tests-checkManifestLockResult.txt",
 			);
@@ -364,22 +349,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A255978D05BEEB3B06D2CEC4 /* [CP] Copy Pods Resources */ = {
+		F67BFB866937796166A0A0BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SITAMPC/SITAMPC.bundle",
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SITAMPC.bundle",
+				"$(DERIVED_FILE_DIR)/Pods-SITAMPC_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -437,23 +426,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -477,22 +480,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -508,14 +525,17 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90606235726434DBFCCCD129 /* Pods-SITAMPC_Example.debug.xcconfig */;
+			baseConfigurationReference = AFF58B0E6555F73BF62245BC /* Pods-SITAMPC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X7PMZK7H6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SITAMPC/SITAMPC-Prefix.pch";
-				INFOPLIST_FILE = "SITAMPC/SITAMPC-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SITAMPC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -540,14 +560,17 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CEFD3950905504DB853CB9E /* Pods-SITAMPC_Example.release.xcconfig */;
+			baseConfigurationReference = 3CD728A8C2B6B032C7A51392 /* Pods-SITAMPC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9X7PMZK7H6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SITAMPC/SITAMPC-Prefix.pch";
-				INFOPLIST_FILE = "SITAMPC/SITAMPC-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SITAMPC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -572,7 +595,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2540FDB8DD806F0AE4919252 /* Pods-SITAMPC_Tests.debug.xcconfig */;
+			baseConfigurationReference = EBAE847B917D954B2082FD91 /* Pods-SITAMPC_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -596,7 +619,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DB415B8E4BA076749718790 /* Pods-SITAMPC_Tests.release.xcconfig */;
+			baseConfigurationReference = 614849B85CF61B0AF65F266E /* Pods-SITAMPC_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

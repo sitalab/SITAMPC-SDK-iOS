@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SITAMPC'
-  s.version          = '3.22'
+  s.version          = '3.23'
   s.summary          = 'SITAMPC SDK'
 
   s.description      = <<-DESC
@@ -23,9 +23,7 @@ SITA MPC SDK will provide profile management for all your travellers plus access
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'SITAMPC/Classes/**/*'
-  s.resource_bundles = {
- 'SITAMPC' => ['SITAMPC/Assets/**/*']
-     }
+
     s.library = 'z','sqlite3','c++'
     s.frameworks = 'UIKit','SystemConfiguration','CoreData'
     s.vendored_libraries = 'SITAMPC/libSITAMPC.a'
