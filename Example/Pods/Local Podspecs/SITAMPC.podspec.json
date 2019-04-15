@@ -19,6 +19,11 @@
     "ios": "8.0"
   },
   "source_files": "SITAMPC/Classes/**/*",
+  "resource_bundles": {
+    "SITAMPC": [
+      "SITAMPC/Assets/*"
+    ]
+  },
   "libraries": [
     "z",
     "sqlite3",

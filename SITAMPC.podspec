@@ -23,6 +23,11 @@ SITA MPC SDK will provide profile management for all your travellers plus access
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'SITAMPC/Classes/**/*'
+ 
+
+  s.resource_bundles = {
+ 'SITAMPC' => ['SITAMPC/Assets/*']
+     }
 
     s.library = 'z','sqlite3','c++'
     s.frameworks = 'UIKit','SystemConfiguration','CoreData'
