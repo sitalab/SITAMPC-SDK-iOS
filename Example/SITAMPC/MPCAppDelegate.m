@@ -12,12 +12,7 @@
 @implementation MPCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    
-    [MPCFlowManager sharedManager].MPC_host = @"http://tam-dev.eu-west-1.elasticbeanstalk.com";
-    [MPCFlowManager sharedManager].MPC_apiKey = @"b7d72c86-bbb1-44a2-a5a8-ba15738b6e8e";
-    [MPCFlowManager sharedManager].MPC_cid = @"XS";
-    
+{    
     //    [MPCFlowManager sharedManager].MPC_host = <INSERT MPC_host>;
     //    [MPCFlowManager sharedManager].MPC_apiKey = <INSERT MPC_apiKey>;
     //    [MPCFlowManager sharedManager].MPC_cid = <INSERT MPC_cid>;

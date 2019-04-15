@@ -13,26 +13,17 @@
 			buildPhases = (
 			);
 			dependencies = (
-				3977E2CB426784707F40103EC2CF3AC2 /* PBXTargetDependency */,
 			);
 			name = SITAMPC;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		879CEB86EB97AA41704E6779624BAB89 /* MPCResourcesBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AB4D9890DE41F892E7540F74F7A2908 /* MPCResourcesBundle.bundle */; };
 		9BCE51CE650BDC0300E404CB538C6922 /* Pods-SITAMPC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8195E90193087F54251AA9C5B52BCC59 /* Pods-SITAMPC_Example-dummy.m */; };
 		A81F69604206D637B916C4FDE3388179 /* Pods-SITAMPC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C6405F8E90DDA3016301B37AB37066 /* Pods-SITAMPC_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		061A3496B14556C5960CC3CFDAF0A48F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76F5053CD74C4C7D7B6A0BF7BFB9EBBF;
-			remoteInfo = "SITAMPC-SITAMPC";
-		};
 		7641D3612697D0C788C41A03A98431BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -50,62 +41,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00276269AF56F7A934FD16E6B3B29250 /* MPCDataModelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCDataModelHandler.h; path = SITAMPC/Classes/include/SITAMPC/MPCDataModelHandler.h; sourceTree = "<group>"; };
+		07AC9AFE44EB343567361E8886148883 /* MPCReceiptPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCReceiptPageControl.h; path = SITAMPC/Classes/include/SITAMPC/MPCReceiptPageControl.h; sourceTree = "<group>"; };
 		07CE160EFD1CC57DFF2B3484B44E079F /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		08E9981AA844E8AB6B1FE5F9D31E55EE /* MPCReadyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCReadyView.h; path = SITAMPC/Classes/include/SITAMPC/MPCReadyView.h; sourceTree = "<group>"; };
-		0FBB669BB40951BE4FE5E14A4671D280 /* MPCExpressFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCExpressFooter.h; path = SITAMPC/Classes/include/SITAMPC/MPCExpressFooter.h; sourceTree = "<group>"; };
-		1013E359214A768864415DFE74367BC8 /* MPCFormsTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCFormsTable.h; path = SITAMPC/Classes/include/SITAMPC/MPCFormsTable.h; sourceTree = "<group>"; };
-		1020E523F43A2B37F4C5CD7AE10C2755 /* SITAMPC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SITAMPC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1B09C81DB1D9D524B15E171B6D626E5F /* MPCTouchModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCTouchModal.h; path = SITAMPC/Classes/include/SITAMPC/MPCTouchModal.h; sourceTree = "<group>"; };
+		07D230144C32B2BBCA60B1FCA918D673 /* MPCNotices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCNotices.h; path = SITAMPC/Classes/include/SITAMPC/MPCNotices.h; sourceTree = "<group>"; };
+		1743CB9D15E85C945BB3E6B98987D703 /* MPCFlowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCFlowManager.h; path = SITAMPC/Classes/include/SITAMPC/MPCFlowManager.h; sourceTree = "<group>"; };
+		1DD47A5DA2B1C297FBA5AFCCF1BD9122 /* MPCQuestionForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCQuestionForm.h; path = SITAMPC/Classes/include/SITAMPC/MPCQuestionForm.h; sourceTree = "<group>"; };
 		1E52FDF933478577594EE279C4D6C9A6 /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		27E1644B5E1244C0DD394A925760AFB9 /* MPCTripsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCTripsManager.h; path = SITAMPC/Classes/include/SITAMPC/MPCTripsManager.h; sourceTree = "<group>"; };
-		295D5FBDAEC4DADFAA0DF697DC35D2D8 /* MPCQuestionForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCQuestionForm.h; path = SITAMPC/Classes/include/SITAMPC/MPCQuestionForm.h; sourceTree = "<group>"; };
-		2C581F01703D74FA9EA40DB1A598EFEB /* MPCProfileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCProfileManager.h; path = SITAMPC/Classes/include/SITAMPC/MPCProfileManager.h; sourceTree = "<group>"; };
-		2D53E834F1B415A4D373DEEF73D34A8F /* MPCReceiptPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCReceiptPageControl.h; path = SITAMPC/Classes/include/SITAMPC/MPCReceiptPageControl.h; sourceTree = "<group>"; };
-		376BDCB26063D2B2E44844F206D85EB4 /* MPCQueueView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCQueueView.h; path = SITAMPC/Classes/include/SITAMPC/MPCQueueView.h; sourceTree = "<group>"; };
-		38EDE323D2AFFE13F09F3CFE15D57C50 /* MPCNotices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCNotices.h; path = SITAMPC/Classes/include/SITAMPC/MPCNotices.h; sourceTree = "<group>"; };
-		3BCA23C34F172AB78CC0DA99F4A6556C /* libSITAMPC.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSITAMPC.a; path = SITAMPC/libSITAMPC.a; sourceTree = "<group>"; };
-		491B12D1E01A99BFDE1B34C27A685A6B /* MPCManageProfiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCManageProfiles.h; path = SITAMPC/Classes/include/SITAMPC/MPCManageProfiles.h; sourceTree = "<group>"; };
-		495A39A988EC30F6F3E3D80B37B21135 /* MPCAirportsModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCAirportsModal.h; path = SITAMPC/Classes/include/SITAMPC/MPCAirportsModal.h; sourceTree = "<group>"; };
+		1F7CC89ECAA22117730E558D8BD6B5FB /* MPCTripsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCTripsManager.h; path = SITAMPC/Classes/include/SITAMPC/MPCTripsManager.h; sourceTree = "<group>"; };
+		27D7A1D376E6CEEE5419538D152A3854 /* MPCResourcesBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MPCResourcesBundle.bundle; path = SITAMPC/Assets/MPCResourcesBundle.bundle; sourceTree = "<group>"; };
+		3CB92329552758E11B82732418D8B009 /* MPCPermissionsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCPermissionsView.h; path = SITAMPC/Classes/include/SITAMPC/MPCPermissionsView.h; sourceTree = "<group>"; };
+		41A138869472AFFB175777625E12B71E /* MPCAirportsModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCAirportsModal.h; path = SITAMPC/Classes/include/SITAMPC/MPCAirportsModal.h; sourceTree = "<group>"; };
+		4BD34FFEC95B986920CB4FE44D3BA981 /* MPCForgetPasscode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCForgetPasscode.h; path = SITAMPC/Classes/include/SITAMPC/MPCForgetPasscode.h; sourceTree = "<group>"; };
 		4CA2B8B85969DAD1C92E9EA819748100 /* Pods-SITAMPC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SITAMPC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		50D3F3550DBB539854EA3280B250A087 /* MPCSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCSummary.h; path = SITAMPC/Classes/include/SITAMPC/MPCSummary.h; sourceTree = "<group>"; };
-		545B016DF78E2B56BFAF59FB17510BF2 /* NamespacedDependencies.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NamespacedDependencies.h; path = SITAMPC/Classes/include/SITAMPC/NamespacedDependencies.h; sourceTree = "<group>"; };
-		594165F3B79C41A9BD7BF04AB781F30B /* ResourceBundle-SITAMPC-SITAMPC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SITAMPC-SITAMPC-Info.plist"; sourceTree = "<group>"; };
+		4FCA126D6F3BAE92CBE5A7A0EBCD0A7C /* NamespacedDependencies.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NamespacedDependencies.h; path = SITAMPC/Classes/include/SITAMPC/NamespacedDependencies.h; sourceTree = "<group>"; };
+		56F55A338F477B5BD4A324B9ACDF1501 /* SITAMPC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SITAMPC.xcconfig; sourceTree = "<group>"; };
+		575F9E1461658AE46A0A92FA7A2E7139 /* MPCExpressFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCExpressFooter.h; path = SITAMPC/Classes/include/SITAMPC/MPCExpressFooter.h; sourceTree = "<group>"; };
 		6354525CDBDE8FA6FABE5FE65F9E6737 /* Pods-SITAMPC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SITAMPC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F16436B9F326A4603BD500E8FD139E3 /* libPods-SITAMPC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SITAMPC_Example.a"; path = "libPods-SITAMPC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4611D3301E3AB7C3265F3E06744DC0 /* MPCCountryListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCCountryListViewController.h; path = SITAMPC/Classes/include/SITAMPC/MPCCountryListViewController.h; sourceTree = "<group>"; };
 		6F532DA1F8B48B3C61959F7B789D77C2 /* Pods-SITAMPC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SITAMPC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73465A4D5916837DE5F9545832980AB4 /* MPCOptionsForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCOptionsForm.h; path = SITAMPC/Classes/include/SITAMPC/MPCOptionsForm.h; sourceTree = "<group>"; };
-		7AB4D9890DE41F892E7540F74F7A2908 /* MPCResourcesBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MPCResourcesBundle.bundle; path = SITAMPC/Assets/MPCResourcesBundle.bundle; sourceTree = "<group>"; };
+		743C23F9883171B4C913E30612CF0D21 /* MPCNoForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCNoForm.h; path = SITAMPC/Classes/include/SITAMPC/MPCNoForm.h; sourceTree = "<group>"; };
+		797A55D405781F6A92765FA3A19579D7 /* libPods-SITAMPC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SITAMPC_Example.a"; path = "libPods-SITAMPC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5DEBCF7E3DAEA97F2AA5EC4B1FA766 /* SITAMPC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SITAMPC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EC1193E593081A3C5A5B1AC0E9C8AB0 /* MPCAirlinesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCAirlinesList.h; path = SITAMPC/Classes/include/SITAMPC/MPCAirlinesList.h; sourceTree = "<group>"; };
+		806997CD5191C642DC824BFB0FA2A53B /* MPCReceiptPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCReceiptPage.h; path = SITAMPC/Classes/include/SITAMPC/MPCReceiptPage.h; sourceTree = "<group>"; };
 		8195E90193087F54251AA9C5B52BCC59 /* Pods-SITAMPC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SITAMPC_Example-dummy.m"; sourceTree = "<group>"; };
-		8483D5E9A55D5313D8EB430898F17629 /* MPCPermissionsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCPermissionsView.h; path = SITAMPC/Classes/include/SITAMPC/MPCPermissionsView.h; sourceTree = "<group>"; };
+		82AC34C21784A4A62800777A2F69416D /* MPCQueueView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCQueueView.h; path = SITAMPC/Classes/include/SITAMPC/MPCQueueView.h; sourceTree = "<group>"; };
 		84EBD0EE3364802968BC93123CDBA9E1 /* Pods-SITAMPC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SITAMPC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		89EB9ADFD39B6D2BE1BEBC655D83DF82 /* MPCReceiptPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCReceiptPage.h; path = SITAMPC/Classes/include/SITAMPC/MPCReceiptPage.h; sourceTree = "<group>"; };
-		93234E473E97D4EC67C0F724914C432D /* MPCCountryListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCCountryListViewController.h; path = SITAMPC/Classes/include/SITAMPC/MPCCountryListViewController.h; sourceTree = "<group>"; };
-		9D108C10F1B4943A8837944127AECADC /* SITAMPC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SITAMPC.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A006072B23A18C4DEC2A68B9763AFC9C /* SITAMPC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SITAMPC.bundle; path = "SITAMPC-SITAMPC.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B092AFE80142668AF68A75B25F8B25FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A9A71E6084732376C24C5BFC529C1F74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B02FEC94F4D5FDADBD8B86611A3C2E96 /* MPCOptionsForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCOptionsForm.h; path = SITAMPC/Classes/include/SITAMPC/MPCOptionsForm.h; sourceTree = "<group>"; };
+		B22748CDD0E9ADEF66B5AF3986158D74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B3F8684640D0D09378BF7EE7EA4E609D /* MPCDataModelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCDataModelHandler.h; path = SITAMPC/Classes/include/SITAMPC/MPCDataModelHandler.h; sourceTree = "<group>"; };
+		B7DB3D380BE8103F69A3CBE219ACCE82 /* MPCProfileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCProfileManager.h; path = SITAMPC/Classes/include/SITAMPC/MPCProfileManager.h; sourceTree = "<group>"; };
 		B9058F8DC87EFB62837DBA2DD5A06BE6 /* Pods-SITAMPC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SITAMPC_Example-resources.sh"; sourceTree = "<group>"; };
 		BA2986F9437CF9553EE0909C7B73F3B5 /* Pods-SITAMPC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SITAMPC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C205CCCFD42B68E082495ECBC2706537 /* MPCNoForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCNoForm.h; path = SITAMPC/Classes/include/SITAMPC/MPCNoForm.h; sourceTree = "<group>"; };
 		C5C6405F8E90DDA3016301B37AB37066 /* Pods-SITAMPC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SITAMPC_Tests-dummy.m"; sourceTree = "<group>"; };
-		CDBE6B82F9C3D69D0D6B1306C5B5505D /* MPCAirlinesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCAirlinesList.h; path = SITAMPC/Classes/include/SITAMPC/MPCAirlinesList.h; sourceTree = "<group>"; };
-		CE28BD5A5FEDD35855591A2569D86FC6 /* MPCFlowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCFlowManager.h; path = SITAMPC/Classes/include/SITAMPC/MPCFlowManager.h; sourceTree = "<group>"; };
-		E52E0170C4380086C1D4BF6C5DD04A9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EDFF0DF2CEB248556C466626E5284C34 /* MPCForgetPasscode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCForgetPasscode.h; path = SITAMPC/Classes/include/SITAMPC/MPCForgetPasscode.h; sourceTree = "<group>"; };
+		CA89F1066D1AA0796BCBE471540E3543 /* MPCTouchModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCTouchModal.h; path = SITAMPC/Classes/include/SITAMPC/MPCTouchModal.h; sourceTree = "<group>"; };
+		CB001B32E5F7704A40D37ECF8E80180C /* MPCManageProfiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCManageProfiles.h; path = SITAMPC/Classes/include/SITAMPC/MPCManageProfiles.h; sourceTree = "<group>"; };
+		D10CED831E7CE58C60CCD598BF29A018 /* MPCSummary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCSummary.h; path = SITAMPC/Classes/include/SITAMPC/MPCSummary.h; sourceTree = "<group>"; };
+		D4AF2504CE1FB27294A5AAA24A9FFEE3 /* libSITAMPC.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSITAMPC.a; path = SITAMPC/libSITAMPC.a; sourceTree = "<group>"; };
+		DF69298991A43558CCCAF0B326CB9E76 /* libPods-SITAMPC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SITAMPC_Tests.a"; path = "libPods-SITAMPC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24FD9F916F5EE4B581E4794B3BCFA77 /* MPCFormsTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCFormsTable.h; path = SITAMPC/Classes/include/SITAMPC/MPCFormsTable.h; sourceTree = "<group>"; };
+		ECFD4B900FA7C4827105E3E4CF57BF04 /* MPCReadyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPCReadyView.h; path = SITAMPC/Classes/include/SITAMPC/MPCReadyView.h; sourceTree = "<group>"; };
 		FADFE03394FB7C2B5F77C4483117C7C2 /* Pods-SITAMPC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SITAMPC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FEB240D0DC60910137B8605F4608BC79 /* libPods-SITAMPC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SITAMPC_Tests.a"; path = "libPods-SITAMPC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49A4704666A2154BDB1F99DF5D283432 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		66A00646F39E0149FDD3734F04386B96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,16 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		075E3A66C12C0FEC6A643F86F7C60DA7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B092AFE80142668AF68A75B25F8B25FD /* LICENSE */,
-				E52E0170C4380086C1D4BF6C5DD04A9C /* README.md */,
-				1020E523F43A2B37F4C5CD7AE10C2755 /* SITAMPC.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0FED78E3D87890F43495D398DE429659 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,75 +113,47 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		22FF1EF16692B5A5E024C386EE57CAAA /* SITAMPC */ = {
+		51DAC95C5717B47EA4D7531BC867D57F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CDBE6B82F9C3D69D0D6B1306C5B5505D /* MPCAirlinesList.h */,
-				495A39A988EC30F6F3E3D80B37B21135 /* MPCAirportsModal.h */,
-				93234E473E97D4EC67C0F724914C432D /* MPCCountryListViewController.h */,
-				00276269AF56F7A934FD16E6B3B29250 /* MPCDataModelHandler.h */,
-				0FBB669BB40951BE4FE5E14A4671D280 /* MPCExpressFooter.h */,
-				CE28BD5A5FEDD35855591A2569D86FC6 /* MPCFlowManager.h */,
-				EDFF0DF2CEB248556C466626E5284C34 /* MPCForgetPasscode.h */,
-				1013E359214A768864415DFE74367BC8 /* MPCFormsTable.h */,
-				491B12D1E01A99BFDE1B34C27A685A6B /* MPCManageProfiles.h */,
-				C205CCCFD42B68E082495ECBC2706537 /* MPCNoForm.h */,
-				38EDE323D2AFFE13F09F3CFE15D57C50 /* MPCNotices.h */,
-				73465A4D5916837DE5F9545832980AB4 /* MPCOptionsForm.h */,
-				8483D5E9A55D5313D8EB430898F17629 /* MPCPermissionsView.h */,
-				2C581F01703D74FA9EA40DB1A598EFEB /* MPCProfileManager.h */,
-				295D5FBDAEC4DADFAA0DF697DC35D2D8 /* MPCQuestionForm.h */,
-				376BDCB26063D2B2E44844F206D85EB4 /* MPCQueueView.h */,
-				08E9981AA844E8AB6B1FE5F9D31E55EE /* MPCReadyView.h */,
-				89EB9ADFD39B6D2BE1BEBC655D83DF82 /* MPCReceiptPage.h */,
-				2D53E834F1B415A4D373DEEF73D34A8F /* MPCReceiptPageControl.h */,
-				50D3F3550DBB539854EA3280B250A087 /* MPCSummary.h */,
-				1B09C81DB1D9D524B15E171B6D626E5F /* MPCTouchModal.h */,
-				27E1644B5E1244C0DD394A925760AFB9 /* MPCTripsManager.h */,
-				545B016DF78E2B56BFAF59FB17510BF2 /* NamespacedDependencies.h */,
-				84CB09911EB53072E000397018BCE9E2 /* Frameworks */,
-				075E3A66C12C0FEC6A643F86F7C60DA7 /* Pod */,
-				3ED69CA126E7A73BD0413DC8CA353FAB /* Resources */,
-				58B8E4AA906FEC0E2D7116A3A7AB2E06 /* Support Files */,
+				D4AF2504CE1FB27294A5AAA24A9FFEE3 /* libSITAMPC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E1A4013095CD58AD31339BE9F64CC88 /* SITAMPC */ = {
+			isa = PBXGroup;
+			children = (
+				7EC1193E593081A3C5A5B1AC0E9C8AB0 /* MPCAirlinesList.h */,
+				41A138869472AFFB175777625E12B71E /* MPCAirportsModal.h */,
+				6F4611D3301E3AB7C3265F3E06744DC0 /* MPCCountryListViewController.h */,
+				B3F8684640D0D09378BF7EE7EA4E609D /* MPCDataModelHandler.h */,
+				575F9E1461658AE46A0A92FA7A2E7139 /* MPCExpressFooter.h */,
+				1743CB9D15E85C945BB3E6B98987D703 /* MPCFlowManager.h */,
+				4BD34FFEC95B986920CB4FE44D3BA981 /* MPCForgetPasscode.h */,
+				E24FD9F916F5EE4B581E4794B3BCFA77 /* MPCFormsTable.h */,
+				CB001B32E5F7704A40D37ECF8E80180C /* MPCManageProfiles.h */,
+				743C23F9883171B4C913E30612CF0D21 /* MPCNoForm.h */,
+				07D230144C32B2BBCA60B1FCA918D673 /* MPCNotices.h */,
+				B02FEC94F4D5FDADBD8B86611A3C2E96 /* MPCOptionsForm.h */,
+				3CB92329552758E11B82732418D8B009 /* MPCPermissionsView.h */,
+				B7DB3D380BE8103F69A3CBE219ACCE82 /* MPCProfileManager.h */,
+				1DD47A5DA2B1C297FBA5AFCCF1BD9122 /* MPCQuestionForm.h */,
+				82AC34C21784A4A62800777A2F69416D /* MPCQueueView.h */,
+				ECFD4B900FA7C4827105E3E4CF57BF04 /* MPCReadyView.h */,
+				806997CD5191C642DC824BFB0FA2A53B /* MPCReceiptPage.h */,
+				07AC9AFE44EB343567361E8886148883 /* MPCReceiptPageControl.h */,
+				D10CED831E7CE58C60CCD598BF29A018 /* MPCSummary.h */,
+				CA89F1066D1AA0796BCBE471540E3543 /* MPCTouchModal.h */,
+				1F7CC89ECAA22117730E558D8BD6B5FB /* MPCTripsManager.h */,
+				4FCA126D6F3BAE92CBE5A7A0EBCD0A7C /* NamespacedDependencies.h */,
+				51DAC95C5717B47EA4D7531BC867D57F /* Frameworks */,
+				F9F2A733831F09EC7E4A0D93B08928F8 /* Pod */,
+				F61334A1FAD8ECFCF3FEA725BF1A0E7C /* Resources */,
+				F30F3FDAD04530DB02280A6243DDCEA3 /* Support Files */,
 			);
 			name = SITAMPC;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		3ED69CA126E7A73BD0413DC8CA353FAB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7AB4D9890DE41F892E7540F74F7A2908 /* MPCResourcesBundle.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		58B8E4AA906FEC0E2D7116A3A7AB2E06 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				594165F3B79C41A9BD7BF04AB781F30B /* ResourceBundle-SITAMPC-SITAMPC-Info.plist */,
-				9D108C10F1B4943A8837944127AECADC /* SITAMPC.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SITAMPC";
-			sourceTree = "<group>";
-		};
-		848BC09C2F11E78A01256B4F03D3C353 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6F16436B9F326A4603BD500E8FD139E3 /* libPods-SITAMPC_Example.a */,
-				FEB240D0DC60910137B8605F4608BC79 /* libPods-SITAMPC_Tests.a */,
-				A006072B23A18C4DEC2A68B9763AFC9C /* SITAMPC.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		84CB09911EB53072E000397018BCE9E2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3BCA23C34F172AB78CC0DA99F4A6556C /* libSITAMPC.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A6B4EF0292A69349006CA50481090F38 /* Pods-SITAMPC_Example */ = {
@@ -229,7 +173,7 @@
 		AA00CF8769237CDB572C006E06575AAF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22FF1EF16692B5A5E024C386EE57CAAA /* SITAMPC */,
+				9E1A4013095CD58AD31339BE9F64CC88 /* SITAMPC */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -240,7 +184,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				AA00CF8769237CDB572C006E06575AAF /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				848BC09C2F11E78A01256B4F03D3C353 /* Products */,
+				DBD45B03D5678643A03889FC19FCAD01 /* Products */,
 				0FED78E3D87890F43495D398DE429659 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -250,6 +194,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD45B03D5678643A03889FC19FCAD01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797A55D405781F6A92765FA3A19579D7 /* libPods-SITAMPC_Example.a */,
+				DF69298991A43558CCCAF0B326CB9E76 /* libPods-SITAMPC_Tests.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E744C6D446D95DD5879511CE43C9DF84 /* Pods-SITAMPC_Tests */ = {
@@ -263,6 +216,33 @@
 			);
 			name = "Pods-SITAMPC_Tests";
 			path = "Target Support Files/Pods-SITAMPC_Tests";
+			sourceTree = "<group>";
+		};
+		F30F3FDAD04530DB02280A6243DDCEA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56F55A338F477B5BD4A324B9ACDF1501 /* SITAMPC.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SITAMPC";
+			sourceTree = "<group>";
+		};
+		F61334A1FAD8ECFCF3FEA725BF1A0E7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27D7A1D376E6CEEE5419538D152A3854 /* MPCResourcesBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9F2A733831F09EC7E4A0D93B08928F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A9A71E6084732376C24C5BFC529C1F74 /* LICENSE */,
+				B22748CDD0E9ADEF66B5AF3986158D74 /* README.md */,
+				7C5DEBCF7E3DAEA97F2AA5EC4B1FA766 /* SITAMPC.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,23 +265,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		76F5053CD74C4C7D7B6A0BF7BFB9EBBF /* SITAMPC-SITAMPC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E13BF734C2CAD0EF98612B172EFA596 /* Build configuration list for PBXNativeTarget "SITAMPC-SITAMPC" */;
-			buildPhases = (
-				EA341EC62D375F7C5EFC92A786BB1726 /* Sources */,
-				66A00646F39E0149FDD3734F04386B96 /* Frameworks */,
-				AD0FDCBDD50F8411592A2E18FA5D92D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SITAMPC-SITAMPC";
-			productName = "SITAMPC-SITAMPC";
-			productReference = A006072B23A18C4DEC2A68B9763AFC9C /* SITAMPC.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		9BC2D96D7601163D9358C7FE5F0FF952 /* Pods-SITAMPC_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7598D2E8D9FEF9014D6C6AD7E66B2CF /* Build configuration list for PBXNativeTarget "Pods-SITAMPC_Tests" */;
@@ -317,7 +280,7 @@
 			);
 			name = "Pods-SITAMPC_Tests";
 			productName = "Pods-SITAMPC_Tests";
-			productReference = FEB240D0DC60910137B8605F4608BC79 /* libPods-SITAMPC_Tests.a */;
+			productReference = DF69298991A43558CCCAF0B326CB9E76 /* libPods-SITAMPC_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C17E0EF776A9AC9FDF283A8C56874947 /* Pods-SITAMPC_Example */ = {
@@ -335,7 +298,7 @@
 			);
 			name = "Pods-SITAMPC_Example";
 			productName = "Pods-SITAMPC_Example";
-			productReference = 6F16436B9F326A4603BD500E8FD139E3 /* libPods-SITAMPC_Example.a */;
+			productReference = 797A55D405781F6A92765FA3A19579D7 /* libPods-SITAMPC_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -355,37 +318,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 848BC09C2F11E78A01256B4F03D3C353 /* Products */;
+			productRefGroup = DBD45B03D5678643A03889FC19FCAD01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C17E0EF776A9AC9FDF283A8C56874947 /* Pods-SITAMPC_Example */,
 				9BC2D96D7601163D9358C7FE5F0FF952 /* Pods-SITAMPC_Tests */,
 				1A67E745B0D51853ADDFCFDB22792C7C /* SITAMPC */,
-				76F5053CD74C4C7D7B6A0BF7BFB9EBBF /* SITAMPC-SITAMPC */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		AD0FDCBDD50F8411592A2E18FA5D92D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				879CEB86EB97AA41704E6779624BAB89 /* MPCResourcesBundle.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		EA341EC62D375F7C5EFC92A786BB1726 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EA40A4C5354D91E081DC98F6CF0F0DE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,12 +354,6 @@
 			name = SITAMPC;
 			target = 1A67E745B0D51853ADDFCFDB22792C7C /* SITAMPC */;
 			targetProxy = 7641D3612697D0C788C41A03A98431BA /* PBXContainerItemProxy */;
-		};
-		3977E2CB426784707F40103EC2CF3AC2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SITAMPC-SITAMPC";
-			target = 76F5053CD74C4C7D7B6A0BF7BFB9EBBF /* SITAMPC-SITAMPC */;
-			targetProxy = 061A3496B14556C5960CC3CFDAF0A48F /* PBXContainerItemProxy */;
 		};
 		6376F3C926695B890CCE22A9B0319B2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -513,7 +451,7 @@
 		};
 		15FBA93B116A5D8911A3038400EA01FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D108C10F1B4943A8837944127AECADC /* SITAMPC.xcconfig */;
+			baseConfigurationReference = 56F55A338F477B5BD4A324B9ACDF1501 /* SITAMPC.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -524,25 +462,9 @@
 			};
 			name = Debug;
 		};
-		1F3A024D4E65574F43FA8B7B2D4FE59D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D108C10F1B4943A8837944127AECADC /* SITAMPC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SITAMPC";
-				INFOPLIST_FILE = "Target Support Files/SITAMPC/ResourceBundle-SITAMPC-SITAMPC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SITAMPC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		4C4B3F33B5AF8879CF1AAE4094D5B9F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D108C10F1B4943A8837944127AECADC /* SITAMPC.xcconfig */;
+			baseConfigurationReference = 56F55A338F477B5BD4A324B9ACDF1501 /* SITAMPC.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -596,22 +518,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		710B0D7E6A1CA2742D0B91974775656E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D108C10F1B4943A8837944127AECADC /* SITAMPC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SITAMPC";
-				INFOPLIST_FILE = "Target Support Files/SITAMPC/ResourceBundle-SITAMPC-SITAMPC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SITAMPC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -698,15 +604,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E13BF734C2CAD0EF98612B172EFA596 /* Build configuration list for PBXNativeTarget "SITAMPC-SITAMPC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				710B0D7E6A1CA2742D0B91974775656E /* Debug */,
-				1F3A024D4E65574F43FA8B7B2D4FE59D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3DF686BA462DCA9342EC5E548389E20B /* Build configuration list for PBXNativeTarget "Pods-SITAMPC_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

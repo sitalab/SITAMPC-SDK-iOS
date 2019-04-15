@@ -381,13 +381,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/SITAMPC/SITAMPC.bundle",
+				"${PODS_ROOT}/../../SITAMPC/Assets/MPCResourcesBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SITAMPC.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCResourcesBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
