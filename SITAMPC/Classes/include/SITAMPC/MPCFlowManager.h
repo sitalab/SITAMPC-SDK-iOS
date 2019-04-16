@@ -195,5 +195,9 @@ typedef void (^ResetCompletionBlock)(bool);
 
 -(void)applyNavBarConstraints:(UIButton*)btn width:(CGFloat)width height:(CGFloat)height;
 -(NSDictionary*) getTripReceipt;
+
+#pragma-mark ERROR 
+-(void)showErrorFlow:(NSString *)errorMsg;
+    
 @end
 
