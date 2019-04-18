@@ -43,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		080D589915F143D084BB8241 /* libPods-SITAMPC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SITAMPC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C538B2BAF9D8CEFEC31B500 /* Pods-SITAMPC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		375B15D481504DE33E5B0489 /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A6141D1CF5DC4B13D225E73 /* libPods-SITAMPC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SITAMPC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD728A8C2B6B032C7A51392 /* Pods-SITAMPC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.release.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SITAMPC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SITAMPC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		614849B85CF61B0AF65F266E /* Pods-SITAMPC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.release.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		84C81D04D72C580DB1F138B5 /* Pods-SITAMPC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		945A50F2AD6C2C2FF1F65B21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AFF58B0E6555F73BF62245BC /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5A00DE20F3B32BE1FE608B9 /* SITAMPC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SITAMPC.podspec; path = ../SITAMPC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -76,6 +79,7 @@
 		CC22B45F1E30C54F00250B1C /* passport_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passport_overlay.png; sourceTree = "<group>"; };
 		CCC23E9F1E2F48A800632CD9 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		CCC23EA11E2F490600632CD9 /* MPCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPCViewController.xib; sourceTree = "<group>"; };
+		CCD2CA2DECE47AB87ADB54F0 /* Pods-SITAMPC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3362951A3525DDB6360BEE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EBAE847B917D954B2082FD91 /* Pods-SITAMPC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITAMPC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SITAMPC_Tests/Pods-SITAMPC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +209,10 @@
 				3CD728A8C2B6B032C7A51392 /* Pods-SITAMPC_Example.release.xcconfig */,
 				EBAE847B917D954B2082FD91 /* Pods-SITAMPC_Tests.debug.xcconfig */,
 				614849B85CF61B0AF65F266E /* Pods-SITAMPC_Tests.release.xcconfig */,
+				CCD2CA2DECE47AB87ADB54F0 /* Pods-SITAMPC_Example.debug.xcconfig */,
+				0C538B2BAF9D8CEFEC31B500 /* Pods-SITAMPC_Example.release.xcconfig */,
+				84C81D04D72C580DB1F138B5 /* Pods-SITAMPC_Tests.debug.xcconfig */,
+				375B15D481504DE33E5B0489 /* Pods-SITAMPC_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -333,15 +341,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SITAMPC_Tests-checkManifestLockResult.txt",
 			);
@@ -355,15 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SITAMPC_Example-checkManifestLockResult.txt",
 			);
@@ -377,15 +377,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SITAMPC_Example/Pods-SITAMPC_Example-resources.sh",
 				"${PODS_ROOT}/../../SITAMPC/Assets/MPCResourcesBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCResourcesBundle.bundle",
 			);
