@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet MPCExpressFooter *expressFooter;
 
 @property (strong, nonatomic) IBOutlet UITableView *readyTable;
+@property BOOL isMainPoint;
 @property (strong, nonatomic) NSDictionary *readyDict; 
 
 @end
