@@ -123,7 +123,6 @@ typedef void (^ResetCompletionBlock)(bool);
 -(void)initializeFormTemplate:(UIViewController *)currentViewCtrl;
 -(NSString *)getAppState;
 -(NSUInteger)getSavedPassportsCount;
--(NSDate *)convertToDate:(NSString *)dateStr;
 
 -(void)showSavedProfiles:(UIViewController *)viewCtrl statusHandler:(MPCStatusBlock)statusHandler;
 
@@ -152,7 +151,6 @@ typedef void (^ResetCompletionBlock)(bool);
 -(void)setScreenIndex:(NSString *)screen_index;
 
 @property (strong, nonatomic) NSMutableDictionary *postDict;
--(float)ISOconvertorToSeconds :(NSString*)ISOFormat;
 
 @property NSArray *receipts;
 @property (strong, nonatomic) NSString *randomIdent;
@@ -186,9 +184,6 @@ typedef void (^ResetCompletionBlock)(bool);
 
 -(void)changeLanguage;
 -(NSArray *)getExpectedArray;
-
--(NSArray *)getSupportedLanguages;
-
 
 -(void)displayManageProfiles;
 

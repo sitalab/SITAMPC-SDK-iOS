@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SITAMPC'
-  s.version          = '3.27'
+  s.version          = '3.28'
   s.summary          = 'SITAMPC SDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ SITA MPC SDK will provide profile management for all your travellers plus access
   s.homepage         = 'https://github.com/sitalab/SITAMPC-SDK-iOS'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'safaakhalaf' => 'safaa@itx.com.lb' }
+  s.author           = { 'zsheaib' => 'zeinab@itx.com.lb' }
   s.source           = { :git => 'https://github.com/sitalab/SITAMPC-SDK-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
