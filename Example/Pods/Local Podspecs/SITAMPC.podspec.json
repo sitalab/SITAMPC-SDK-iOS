@@ -1,6 +1,6 @@
 {
   "name": "SITAMPC",
-  "version": "3.28",
+  "version": "3.29",
   "summary": "SITAMPC SDK",
   "description": "SITA MPC SDK will provide profile management for all your travellers plus access to dynamic forms and workflows that have been defined by the concerned agencies.",
   "homepage": "https://github.com/sitalab/SITAMPC-SDK-iOS",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "safaakhalaf": "safaa@itx.com.lb"
+    "zsheaib": "zeinab@itx.com.lb"
   },
   "source": {
     "git": "https://github.com/sitalab/SITAMPC-SDK-iOS.git",
-    "tag": "3.28"
+    "tag": "3.29"
   },
   "platforms": {
     "ios": "8.0"
