@@ -162,13 +162,13 @@
 #define DZNEmptyDataSetView __NS_SYMBOL(DZNEmptyDataSetView)
 #endif
 
-#ifndef DZNPhotoDisplayViewCell
-#define DZNPhotoDisplayViewCell __NS_SYMBOL(DZNPhotoDisplayViewCell)
-#endif
+//#ifndef DZNPhotoDisplayViewCell
+//#define DZNPhotoDisplayViewCell __NS_SYMBOL(DZNPhotoDisplayViewCell)
+//#endif
 
-#ifndef DZNPhotoDisplayViewController
-#define DZNPhotoDisplayViewController __NS_SYMBOL(DZNPhotoDisplayViewController)
-#endif
+//#ifndef DZNPhotoDisplayViewController
+//#define DZNPhotoDisplayViewController __NS_SYMBOL(DZNPhotoDisplayViewController)
+//#endif
 
 #ifndef DZNPhotoEditorContainerView
 #define DZNPhotoEditorContainerView __NS_SYMBOL(DZNPhotoEditorContainerView)
@@ -178,25 +178,25 @@
 #define DZNPhotoEditorViewController __NS_SYMBOL(DZNPhotoEditorViewController)
 #endif
 
-#ifndef DZNPhotoMetadata
-#define DZNPhotoMetadata __NS_SYMBOL(DZNPhotoMetadata)
-#endif
+//#ifndef DZNPhotoMetadata
+//#define DZNPhotoMetadata __NS_SYMBOL(DZNPhotoMetadata)
+//#endif
 
 #ifndef DZNPhotoPickerController
 #define DZNPhotoPickerController __NS_SYMBOL(DZNPhotoPickerController)
 #endif
 
-#ifndef DZNPhotoServiceClient
-#define DZNPhotoServiceClient __NS_SYMBOL(DZNPhotoServiceClient)
-#endif
+//#ifndef DZNPhotoServiceClient
+//#define DZNPhotoServiceClient __NS_SYMBOL(DZNPhotoServiceClient)
+//#endif
 
-#ifndef DZNPhotoServiceFactory
-#define DZNPhotoServiceFactory __NS_SYMBOL(DZNPhotoServiceFactory)
-#endif
+//#ifndef DZNPhotoServiceFactory
+//#define DZNPhotoServiceFactory __NS_SYMBOL(DZNPhotoServiceFactory)
+//#endif
 
-#ifndef DZNPhotoTag
-#define DZNPhotoTag __NS_SYMBOL(DZNPhotoTag)
-#endif
+//#ifndef DZNPhotoTag
+//#define DZNPhotoTag __NS_SYMBOL(DZNPhotoTag)
+//#endif
 
 #ifndef GROAuth2SessionManager
 #define GROAuth2SessionManager __NS_SYMBOL(GROAuth2SessionManager)
@@ -210,9 +210,9 @@
 #define MBBarProgressView __NS_SYMBOL(MBBarProgressView)
 #endif
 
-#ifndef MBProgressHUD
-#define MBProgressHUD __NS_SYMBOL(MBProgressHUD)
-#endif
+//#ifndef MBProgressHUD
+//#define MBProgressHUD __NS_SYMBOL(MBProgressHUD)
+//#endif
 
 #ifndef MBRoundProgressView
 #define MBRoundProgressView __NS_SYMBOL(MBRoundProgressView)
@@ -266,25 +266,25 @@
 #define SDImageCache __NS_SYMBOL(SDImageCache)
 #endif
 
-#ifndef SDWebImageCombinedOperation
-#define SDWebImageCombinedOperation __NS_SYMBOL(SDWebImageCombinedOperation)
-#endif
+//#ifndef SDWebImageCombinedOperation
+//#define SDWebImageCombinedOperation __NS_SYMBOL(SDWebImageCombinedOperation)
+//#endif
 
-#ifndef SDWebImageDownloader
-#define SDWebImageDownloader __NS_SYMBOL(SDWebImageDownloader)
-#endif
-
-#ifndef SDWebImageDownloaderOperation
-#define SDWebImageDownloaderOperation __NS_SYMBOL(SDWebImageDownloaderOperation)
-#endif
-
-#ifndef SDWebImageManager
-#define SDWebImageManager __NS_SYMBOL(SDWebImageManager)
-#endif
-
-#ifndef SDWebImagePrefetcher
-#define SDWebImagePrefetcher __NS_SYMBOL(SDWebImagePrefetcher)
-#endif
+//#ifndef SDWebImageDownloader
+//#define SDWebImageDownloader __NS_SYMBOL(SDWebImageDownloader)
+//#endif
+//
+//#ifndef SDWebImageDownloaderOperation
+//#define SDWebImageDownloaderOperation __NS_SYMBOL(SDWebImageDownloaderOperation)
+//#endif
+//
+//#ifndef SDWebImageManager
+//#define SDWebImageManager __NS_SYMBOL(SDWebImageManager)
+//#endif
+//
+//#ifndef SDWebImagePrefetcher
+//#define SDWebImagePrefetcher __NS_SYMBOL(SDWebImagePrefetcher)
+//#endif
 
 #ifndef SMXMLDocument
 #define SMXMLDocument __NS_SYMBOL(SMXMLDocument)
@@ -1415,13 +1415,13 @@
 #define NSStringFromCRToastInteractionType __NS_SYMBOL(NSStringFromCRToastInteractionType)
 #endif
 
-#ifndef NSStringFromService
-#define NSStringFromService __NS_SYMBOL(NSStringFromService)
-#endif
+//#ifndef NSStringFromService
+//#define NSStringFromService __NS_SYMBOL(NSStringFromService)
+//#endif
 
-#ifndef NSUserDefaultsUniqueKey
-#define NSUserDefaultsUniqueKey __NS_SYMBOL(NSUserDefaultsUniqueKey)
-#endif
+//#ifndef NSUserDefaultsUniqueKey
+//#define NSUserDefaultsUniqueKey __NS_SYMBOL(NSUserDefaultsUniqueKey)
+//#endif
 
 #ifndef SDScaledImageForKey
 #define SDScaledImageForKey __NS_SYMBOL(SDScaledImageForKey)
@@ -1431,37 +1431,37 @@
 #define ZXChecksumErrorInstance __NS_SYMBOL(ZXChecksumErrorInstance)
 #endif
 
-#ifndef baseURLForService
-#define baseURLForService __NS_SYMBOL(baseURLForService)
-#endif
+//#ifndef baseURLForService
+//#define baseURLForService __NS_SYMBOL(baseURLForService)
+//#endif
 
 #ifndef ZXFormatErrorInstance
 #define ZXFormatErrorInstance __NS_SYMBOL(ZXFormatErrorInstance)
 #endif
 
-#ifndef DZNPhotoServiceFromName
-#define DZNPhotoServiceFromName __NS_SYMBOL(DZNPhotoServiceFromName)
-#endif
+//#ifndef DZNPhotoServiceFromName
+//#define DZNPhotoServiceFromName __NS_SYMBOL(DZNPhotoServiceFromName)
+//#endif
 
 #ifndef ZXNotFoundErrorInstance
 #define ZXNotFoundErrorInstance __NS_SYMBOL(ZXNotFoundErrorInstance)
 #endif
 
-#ifndef tagsResourceKeyPathForService
-#define tagsResourceKeyPathForService __NS_SYMBOL(tagsResourceKeyPathForService)
-#endif
+//#ifndef tagsResourceKeyPathForService
+//#define tagsResourceKeyPathForService __NS_SYMBOL(tagsResourceKeyPathForService)
+//#endif
 
-#ifndef tagSearchUrlPathForService
-#define tagSearchUrlPathForService __NS_SYMBOL(tagSearchUrlPathForService)
-#endif
+//#ifndef tagSearchUrlPathForService
+//#define tagSearchUrlPathForService __NS_SYMBOL(tagSearchUrlPathForService)
+//#endif
 
-#ifndef photosResourceKeyPathForService
-#define photosResourceKeyPathForService __NS_SYMBOL(photosResourceKeyPathForService)
-#endif
+//#ifndef photosResourceKeyPathForService
+//#define photosResourceKeyPathForService __NS_SYMBOL(photosResourceKeyPathForService)
+//#endif
 
-#ifndef DZNFirstPhotoServiceFromPhotoServices
-#define DZNFirstPhotoServiceFromPhotoServices __NS_SYMBOL(DZNFirstPhotoServiceFromPhotoServices)
-#endif
+//#ifndef DZNFirstPhotoServiceFromPhotoServices
+//#define DZNFirstPhotoServiceFromPhotoServices __NS_SYMBOL(DZNFirstPhotoServiceFromPhotoServices)
+//#endif
 
 #ifndef CRToastInteractionResponderIsGenertic
 #define CRToastInteractionResponderIsGenertic __NS_SYMBOL(CRToastInteractionResponderIsGenertic)
@@ -1471,17 +1471,17 @@
 #define CRToastInteractionResponderIsSwipe __NS_SYMBOL(CRToastInteractionResponderIsSwipe)
 #endif
 
-#ifndef NSArrayFromServices
-#define NSArrayFromServices __NS_SYMBOL(NSArrayFromServices)
-#endif
+//#ifndef NSArrayFromServices
+//#define NSArrayFromServices __NS_SYMBOL(NSArrayFromServices)
+//#endif
 
 #ifndef CRToastInteractionResponderIsTap
 #define CRToastInteractionResponderIsTap __NS_SYMBOL(CRToastInteractionResponderIsTap)
 #endif
 
-#ifndef photoSearchUrlPathForService
-#define photoSearchUrlPathForService __NS_SYMBOL(photoSearchUrlPathForService)
-#endif
+//#ifndef photoSearchUrlPathForService
+//#define photoSearchUrlPathForService __NS_SYMBOL(photoSearchUrlPathForService)
+//#endif
 
 #ifndef CRToastSwipeGestureRecognizerMake
 #define CRToastSwipeGestureRecognizerMake __NS_SYMBOL(CRToastSwipeGestureRecognizerMake)
@@ -1491,29 +1491,29 @@
 #define AFQueryStringPairsFromDictionary __NS_SYMBOL(AFQueryStringPairsFromDictionary)
 #endif
 
-#ifndef authUrlPathForService
-#define authUrlPathForService __NS_SYMBOL(authUrlPathForService)
-#endif
+//#ifndef authUrlPathForService
+//#define authUrlPathForService __NS_SYMBOL(authUrlPathForService)
+//#endif
 
 #ifndef AFQueryStringPairsFromKeyAndValue
 #define AFQueryStringPairsFromKeyAndValue __NS_SYMBOL(AFQueryStringPairsFromKeyAndValue)
 #endif
 
-#ifndef keyForAPIConsumerKey
-#define keyForAPIConsumerKey __NS_SYMBOL(keyForAPIConsumerKey)
-#endif
+//#ifndef keyForAPIConsumerKey
+//#define keyForAPIConsumerKey __NS_SYMBOL(keyForAPIConsumerKey)
+//#endif
 
 #ifndef CRToastTapGestureRecognizerMake
 #define CRToastTapGestureRecognizerMake __NS_SYMBOL(CRToastTapGestureRecognizerMake)
 #endif
 
-#ifndef keyForAPIConsumerSecret
-#define keyForAPIConsumerSecret __NS_SYMBOL(keyForAPIConsumerSecret)
-#endif
+//#ifndef keyForAPIConsumerSecret
+//#define keyForAPIConsumerSecret __NS_SYMBOL(keyForAPIConsumerSecret)
+//#endif
 
-#ifndef keyForSearchTerm
-#define keyForSearchTerm __NS_SYMBOL(keyForSearchTerm)
-#endif
+//#ifndef keyForSearchTerm
+//#define keyForSearchTerm __NS_SYMBOL(keyForSearchTerm)
+//#endif
 
 #ifndef CRToastGestureRecognizerMake
 #define CRToastGestureRecognizerMake __NS_SYMBOL(CRToastGestureRecognizerMake)
@@ -1523,37 +1523,37 @@
 #define CRToastInwardAnimationsBlock __NS_SYMBOL(CRToastInwardAnimationsBlock)
 #endif
 
-#ifndef keyForSearchTag
-#define keyForSearchTag __NS_SYMBOL(keyForSearchTag)
-#endif
+//#ifndef keyForSearchTag
+//#define keyForSearchTag __NS_SYMBOL(keyForSearchTag)
+//#endif
 
-#ifndef keyForSearchResultPerPage
-#define keyForSearchResultPerPage __NS_SYMBOL(keyForSearchResultPerPage)
-#endif
+//#ifndef keyForSearchResultPerPage
+//#define keyForSearchResultPerPage __NS_SYMBOL(keyForSearchResultPerPage)
+//#endif
 
 #ifndef CRToastGenericSwipeRecognizersMake
 #define CRToastGenericSwipeRecognizersMake __NS_SYMBOL(CRToastGenericSwipeRecognizersMake)
 #endif
 
-#ifndef keyForSearchTagContent
-#define keyForSearchTagContent __NS_SYMBOL(keyForSearchTagContent)
-#endif
+//#ifndef keyForSearchTagContent
+//#define keyForSearchTagContent __NS_SYMBOL(keyForSearchTagContent)
+//#endif
 
-#ifndef keyPathForObjectName
-#define keyPathForObjectName __NS_SYMBOL(keyPathForObjectName)
-#endif
+//#ifndef keyPathForObjectName
+//#define keyPathForObjectName __NS_SYMBOL(keyPathForObjectName)
+//#endif
 
-#ifndef isConsumerSecretRequiredForService
-#define isConsumerSecretRequiredForService __NS_SYMBOL(isConsumerSecretRequiredForService)
-#endif
+//#ifndef isConsumerSecretRequiredForService
+//#define isConsumerSecretRequiredForService __NS_SYMBOL(isConsumerSecretRequiredForService)
+//#endif
 
-#ifndef isConsumerKeyInParametersRequiredForService
-#define isConsumerKeyInParametersRequiredForService __NS_SYMBOL(isConsumerKeyInParametersRequiredForService)
-#endif
+//#ifndef isConsumerKeyInParametersRequiredForService
+//#define isConsumerKeyInParametersRequiredForService __NS_SYMBOL(isConsumerKeyInParametersRequiredForService)
+//#endif
 
-#ifndef isAuthenticationRequiredForService
-#define isAuthenticationRequiredForService __NS_SYMBOL(isAuthenticationRequiredForService)
-#endif
+//#ifndef isAuthenticationRequiredForService
+//#define isAuthenticationRequiredForService __NS_SYMBOL(isAuthenticationRequiredForService)
+//#endif
 
 #ifndef CRToastInwardAnimationsCompletionBlock
 #define CRToastInwardAnimationsCompletionBlock __NS_SYMBOL(CRToastInwardAnimationsCompletionBlock)
@@ -1624,9 +1624,9 @@
 #define OBJC_PROTOCOL_$_XLFormValidatorProtocol __NS_SYMBOL(OBJC_PROTOCOL_$_XLFormValidatorProtocol)
 #endif
 
-#ifndef OBJC_PROTOCOL_$_SDWebImageOperation
-#define OBJC_PROTOCOL_$_SDWebImageOperation __NS_SYMBOL(OBJC_PROTOCOL_$_SDWebImageOperation)
-#endif
+//#ifndef OBJC_PROTOCOL_$_SDWebImageOperation
+//#define OBJC_PROTOCOL_$_SDWebImageOperation __NS_SYMBOL(OBJC_PROTOCOL_$_SDWebImageOperation)
+//#endif
 
 #ifndef OBJC_PROTOCOL_$_XLFormOptionObject
 #define OBJC_PROTOCOL_$_XLFormOptionObject __NS_SYMBOL(OBJC_PROTOCOL_$_XLFormOptionObject)
@@ -1788,13 +1788,13 @@
 #define expectedCornerBits __NS_SYMBOL(expectedCornerBits)
 #endif
 
-#ifndef OBJC_PROTOCOL_$_SDWebImageOperation
-#define OBJC_PROTOCOL_$_SDWebImageOperation __NS_SYMBOL(OBJC_PROTOCOL_$_SDWebImageOperation)
-#endif
+//#ifndef OBJC_PROTOCOL_$_SDWebImageOperation
+//#define OBJC_PROTOCOL_$_SDWebImageOperation __NS_SYMBOL(OBJC_PROTOCOL_$_SDWebImageOperation)
+//#endif
 
-#ifndef OBJC_PROTOCOL_$_DZNPhotoServiceClientProtocol
-#define OBJC_PROTOCOL_$_DZNPhotoServiceClientProtocol __NS_SYMBOL(OBJC_PROTOCOL_$_DZNPhotoServiceClientProtocol)
-#endif
+//#ifndef OBJC_PROTOCOL_$_DZNPhotoServiceClientProtocol
+//#define OBJC_PROTOCOL_$_DZNPhotoServiceClientProtocol __NS_SYMBOL(OBJC_PROTOCOL_$_DZNPhotoServiceClientProtocol)
+//#endif
 
 #ifndef OBJC_PROTOCOL_$_XLFormRowDescriptorViewController
 #define OBJC_PROTOCOL_$_XLFormRowDescriptorViewController __NS_SYMBOL(OBJC_PROTOCOL_$_XLFormRowDescriptorViewController)
@@ -1812,17 +1812,17 @@
 #define OBJC_PROTOCOL_$_AFURLResponseSerialization __NS_SYMBOL(OBJC_PROTOCOL_$_AFURLResponseSerialization)
 #endif
 
-#ifndef OBJC_PROTOCOL_$_DZNEmptyDataSetSource
-#define OBJC_PROTOCOL_$_DZNEmptyDataSetSource __NS_SYMBOL(OBJC_PROTOCOL_$_DZNEmptyDataSetSource)
-#endif
+//#ifndef OBJC_PROTOCOL_$_DZNEmptyDataSetSource
+//#define OBJC_PROTOCOL_$_DZNEmptyDataSetSource __NS_SYMBOL(OBJC_PROTOCOL_$_DZNEmptyDataSetSource)
+//#endif
 
-#ifndef OBJC_PROTOCOL_$_SDWebImageOperation
-#define OBJC_PROTOCOL_$_SDWebImageOperation __NS_SYMBOL(OBJC_PROTOCOL_$_SDWebImageOperation)
-#endif
+//#ifndef OBJC_PROTOCOL_$_SDWebImageOperation
+//#define OBJC_PROTOCOL_$_SDWebImageOperation __NS_SYMBOL(OBJC_PROTOCOL_$_SDWebImageOperation)
+//#endif
 
-#ifndef OBJC_PROTOCOL_$_DZNEmptyDataSetSource
-#define OBJC_PROTOCOL_$_DZNEmptyDataSetSource __NS_SYMBOL(OBJC_PROTOCOL_$_DZNEmptyDataSetSource)
-#endif
+//#ifndef OBJC_PROTOCOL_$_DZNEmptyDataSetSource
+//#define OBJC_PROTOCOL_$_DZNEmptyDataSetSource __NS_SYMBOL(OBJC_PROTOCOL_$_DZNEmptyDataSetSource)
+//#endif
 
 #ifndef OBJC_PROTOCOL_$_DZNEmptyDataSetDelegate
 #define OBJC_PROTOCOL_$_DZNEmptyDataSetDelegate __NS_SYMBOL(OBJC_PROTOCOL_$_DZNEmptyDataSetDelegate)
@@ -2196,13 +2196,13 @@
 //#define DZNPhotoPickerControllerPhotoMetadata __NS_SYMBOL(DZNPhotoPickerControllerPhotoMetadata)
 //#endif
 
-#ifndef DZNPhotoPickerDidFinishPickingNotification
-#define DZNPhotoPickerDidFinishPickingNotification __NS_SYMBOL(DZNPhotoPickerDidFinishPickingNotification)
-#endif
-
-#ifndef DZNPhotoPickerDidFailPickingNotification
-#define DZNPhotoPickerDidFailPickingNotification __NS_SYMBOL(DZNPhotoPickerDidFailPickingNotification)
-#endif
+//#ifndef DZNPhotoPickerDidFinishPickingNotification
+//#define DZNPhotoPickerDidFinishPickingNotification __NS_SYMBOL(DZNPhotoPickerDidFinishPickingNotification)
+//#endif
+//
+//#ifndef DZNPhotoPickerDidFailPickingNotification
+//#define DZNPhotoPickerDidFailPickingNotification __NS_SYMBOL(DZNPhotoPickerDidFailPickingNotification)
+//#endif
 
 #ifndef ZX_RSS_MIN_FINDER_PATTERN_RATIO
 #define ZX_RSS_MIN_FINDER_PATTERN_RATIO __NS_SYMBOL(ZX_RSS_MIN_FINDER_PATTERN_RATIO)
@@ -2404,29 +2404,29 @@
 #define ZX_PDF417_CODEWORD_TABLE __NS_SYMBOL(ZX_PDF417_CODEWORD_TABLE)
 #endif
 
-#ifndef DZNPhotoServiceClientIndentifier
-#define DZNPhotoServiceClientIndentifier __NS_SYMBOL(DZNPhotoServiceClientIndentifier)
-#endif
+//#ifndef DZNPhotoServiceClientIndentifier
+//#define DZNPhotoServiceClientIndentifier __NS_SYMBOL(DZNPhotoServiceClientIndentifier)
+//#endif
 
-#ifndef DZNPhotoServiceClientConsumerKey
-#define DZNPhotoServiceClientConsumerKey __NS_SYMBOL(DZNPhotoServiceClientConsumerKey)
-#endif
+//#ifndef DZNPhotoServiceClientConsumerKey
+//#define DZNPhotoServiceClientConsumerKey __NS_SYMBOL(DZNPhotoServiceClientConsumerKey)
+//#endif
 
-#ifndef DZNPhotoServiceClientConsumerSecret
-#define DZNPhotoServiceClientConsumerSecret __NS_SYMBOL(DZNPhotoServiceClientConsumerSecret)
-#endif
+//#ifndef DZNPhotoServiceClientConsumerSecret
+//#define DZNPhotoServiceClientConsumerSecret __NS_SYMBOL(DZNPhotoServiceClientConsumerSecret)
+//#endif
 
-#ifndef DZNPhotoServiceClientSubscription
-#define DZNPhotoServiceClientSubscription __NS_SYMBOL(DZNPhotoServiceClientSubscription)
-#endif
+//#ifndef DZNPhotoServiceClientSubscription
+//#define DZNPhotoServiceClientSubscription __NS_SYMBOL(DZNPhotoServiceClientSubscription)
+//#endif
 
-#ifndef DZNPhotoServiceCredentialIdentifier
-#define DZNPhotoServiceCredentialIdentifier __NS_SYMBOL(DZNPhotoServiceCredentialIdentifier)
-#endif
+//#ifndef DZNPhotoServiceCredentialIdentifier
+//#define DZNPhotoServiceCredentialIdentifier __NS_SYMBOL(DZNPhotoServiceCredentialIdentifier)
+//#endif
 
-#ifndef DZNPhotoServiceCredentialAccessToken
-#define DZNPhotoServiceCredentialAccessToken __NS_SYMBOL(DZNPhotoServiceCredentialAccessToken)
-#endif
+//#ifndef DZNPhotoServiceCredentialAccessToken
+//#define DZNPhotoServiceCredentialAccessToken __NS_SYMBOL(DZNPhotoServiceCredentialAccessToken)
+//#endif
 
 #ifndef ZX_CODE93_ALPHABET
 #define ZX_CODE93_ALPHABET __NS_SYMBOL(ZX_CODE93_ALPHABET)
@@ -2596,13 +2596,13 @@
 #define ZX_AZTEC_LATCH_TABLE __NS_SYMBOL(ZX_AZTEC_LATCH_TABLE)
 #endif
 
-#ifndef AFNetworkingReachabilityDidChangeNotification
-#define AFNetworkingReachabilityDidChangeNotification __NS_SYMBOL(AFNetworkingReachabilityDidChangeNotification)
-#endif
-
-#ifndef AFNetworkingReachabilityNotificationStatusItem
-#define AFNetworkingReachabilityNotificationStatusItem __NS_SYMBOL(AFNetworkingReachabilityNotificationStatusItem)
-#endif
+//#ifndef AFNetworkingReachabilityDidChangeNotification
+//#define AFNetworkingReachabilityDidChangeNotification __NS_SYMBOL(AFNetworkingReachabilityDidChangeNotification)
+//#endif
+//
+//#ifndef AFNetworkingReachabilityNotificationStatusItem
+//#define AFNetworkingReachabilityNotificationStatusItem __NS_SYMBOL(AFNetworkingReachabilityNotificationStatusItem)
+//#endif
 
 #ifndef ZX_AZTEC_CHAR_MAP_HEIGHT
 #define ZX_AZTEC_CHAR_MAP_HEIGHT __NS_SYMBOL(ZX_AZTEC_CHAR_MAP_HEIGHT)
@@ -3096,13 +3096,13 @@
 #define SMXMLDocumentErrorDomain __NS_SYMBOL(SMXMLDocumentErrorDomain)
 #endif
 
-#ifndef SDWebImageDownloadStartNotification
-#define SDWebImageDownloadStartNotification __NS_SYMBOL(SDWebImageDownloadStartNotification)
-#endif
-
-#ifndef SDWebImageDownloadStopNotification
-#define SDWebImageDownloadStopNotification __NS_SYMBOL(SDWebImageDownloadStopNotification)
-#endif
+//#ifndef SDWebImageDownloadStartNotification
+//#define SDWebImageDownloadStartNotification __NS_SYMBOL(SDWebImageDownloadStartNotification)
+//#endif
+//
+//#ifndef SDWebImageDownloadStopNotification
+//#define SDWebImageDownloadStopNotification __NS_SYMBOL(SDWebImageDownloadStopNotification)
+//#endif
 
 #ifndef ZX_PDF417_PREFERRED_RATIO
 #define ZX_PDF417_PREFERRED_RATIO __NS_SYMBOL(ZX_PDF417_PREFERRED_RATIO)
@@ -3200,13 +3200,13 @@
 #define AFURLResponseSerializationErrorDomain __NS_SYMBOL(AFURLResponseSerializationErrorDomain)
 #endif
 
-#ifndef AFNetworkingOperationFailingURLResponseErrorKey
-#define AFNetworkingOperationFailingURLResponseErrorKey __NS_SYMBOL(AFNetworkingOperationFailingURLResponseErrorKey)
-#endif
-
-#ifndef AFNetworkingOperationFailingURLResponseDataErrorKey
-#define AFNetworkingOperationFailingURLResponseDataErrorKey __NS_SYMBOL(AFNetworkingOperationFailingURLResponseDataErrorKey)
-#endif
+//#ifndef AFNetworkingOperationFailingURLResponseErrorKey
+//#define AFNetworkingOperationFailingURLResponseErrorKey __NS_SYMBOL(AFNetworkingOperationFailingURLResponseErrorKey)
+//#endif
+//
+//#ifndef AFNetworkingOperationFailingURLResponseDataErrorKey
+//#define AFNetworkingOperationFailingURLResponseDataErrorKey __NS_SYMBOL(AFNetworkingOperationFailingURLResponseDataErrorKey)
+//#endif
 
 #ifndef XLFormErrorDomain
 #define XLFormErrorDomain __NS_SYMBOL(XLFormErrorDomain)
@@ -3224,13 +3224,13 @@
 #define ZX_PDF417_PUNCTUATION __NS_SYMBOL(ZX_PDF417_PUNCTUATION)
 #endif
 
-#ifndef AFNetworkingOperationDidStartNotification
-#define AFNetworkingOperationDidStartNotification __NS_SYMBOL(AFNetworkingOperationDidStartNotification)
-#endif
-
-#ifndef AFNetworkingOperationDidFinishNotification
-#define AFNetworkingOperationDidFinishNotification __NS_SYMBOL(AFNetworkingOperationDidFinishNotification)
-#endif
+//#ifndef AFNetworkingOperationDidStartNotification
+//#define AFNetworkingOperationDidStartNotification __NS_SYMBOL(AFNetworkingOperationDidStartNotification)
+//#endif
+//
+//#ifndef AFNetworkingOperationDidFinishNotification
+//#define AFNetworkingOperationDidFinishNotification __NS_SYMBOL(AFNetworkingOperationDidFinishNotification)
+//#endif
 
 #ifndef introScreens
 #define introScreens __NS_SYMBOL(introScreens)
@@ -3240,17 +3240,17 @@
 #define ZX_VERSION_DECODE_INFO __NS_SYMBOL(ZX_VERSION_DECODE_INFO)
 #endif
 
-#ifndef AFNetworkingTaskDidResumeNotification
-#define AFNetworkingTaskDidResumeNotification __NS_SYMBOL(AFNetworkingTaskDidResumeNotification)
-#endif
-
-#ifndef AFNetworkingTaskDidCompleteNotification
-#define AFNetworkingTaskDidCompleteNotification __NS_SYMBOL(AFNetworkingTaskDidCompleteNotification)
-#endif
-
-#ifndef AFNetworkingTaskDidSuspendNotification
-#define AFNetworkingTaskDidSuspendNotification __NS_SYMBOL(AFNetworkingTaskDidSuspendNotification)
-#endif
+//#ifndef AFNetworkingTaskDidResumeNotification
+//#define AFNetworkingTaskDidResumeNotification __NS_SYMBOL(AFNetworkingTaskDidResumeNotification)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidCompleteNotification
+//#define AFNetworkingTaskDidCompleteNotification __NS_SYMBOL(AFNetworkingTaskDidCompleteNotification)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidSuspendNotification
+//#define AFNetworkingTaskDidSuspendNotification __NS_SYMBOL(AFNetworkingTaskDidSuspendNotification)
+//#endif
 
 #ifndef AFURLSessionDidInvalidateNotification
 #define AFURLSessionDidInvalidateNotification __NS_SYMBOL(AFURLSessionDidInvalidateNotification)
@@ -3260,53 +3260,53 @@
 #define AFURLSessionDownloadTaskDidFailToMoveFileNotification __NS_SYMBOL(AFURLSessionDownloadTaskDidFailToMoveFileNotification)
 #endif
 
-#ifndef AFNetworkingTaskDidStartNotification
-#define AFNetworkingTaskDidStartNotification __NS_SYMBOL(AFNetworkingTaskDidStartNotification)
-#endif
+//#ifndef AFNetworkingTaskDidStartNotification
+//#define AFNetworkingTaskDidStartNotification __NS_SYMBOL(AFNetworkingTaskDidStartNotification)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidFinishNotification
+//#define AFNetworkingTaskDidFinishNotification __NS_SYMBOL(AFNetworkingTaskDidFinishNotification)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidCompleteSerializedResponseKey
+//#define AFNetworkingTaskDidCompleteSerializedResponseKey __NS_SYMBOL(AFNetworkingTaskDidCompleteSerializedResponseKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidCompleteResponseSerializerKey
+//#define AFNetworkingTaskDidCompleteResponseSerializerKey __NS_SYMBOL(AFNetworkingTaskDidCompleteResponseSerializerKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidCompleteResponseDataKey
+//#define AFNetworkingTaskDidCompleteResponseDataKey __NS_SYMBOL(AFNetworkingTaskDidCompleteResponseDataKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidCompleteErrorKey
+//#define AFNetworkingTaskDidCompleteErrorKey __NS_SYMBOL(AFNetworkingTaskDidCompleteErrorKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidCompleteAssetPathKey
+//#define AFNetworkingTaskDidCompleteAssetPathKey __NS_SYMBOL(AFNetworkingTaskDidCompleteAssetPathKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidFinishSerializedResponseKey
+//#define AFNetworkingTaskDidFinishSerializedResponseKey __NS_SYMBOL(AFNetworkingTaskDidFinishSerializedResponseKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidFinishResponseSerializerKey
+//#define AFNetworkingTaskDidFinishResponseSerializerKey __NS_SYMBOL(AFNetworkingTaskDidFinishResponseSerializerKey)
+//#endif
 
-#ifndef AFNetworkingTaskDidFinishNotification
-#define AFNetworkingTaskDidFinishNotification __NS_SYMBOL(AFNetworkingTaskDidFinishNotification)
-#endif
-
-#ifndef AFNetworkingTaskDidCompleteSerializedResponseKey
-#define AFNetworkingTaskDidCompleteSerializedResponseKey __NS_SYMBOL(AFNetworkingTaskDidCompleteSerializedResponseKey)
-#endif
-
-#ifndef AFNetworkingTaskDidCompleteResponseSerializerKey
-#define AFNetworkingTaskDidCompleteResponseSerializerKey __NS_SYMBOL(AFNetworkingTaskDidCompleteResponseSerializerKey)
-#endif
-
-#ifndef AFNetworkingTaskDidCompleteResponseDataKey
-#define AFNetworkingTaskDidCompleteResponseDataKey __NS_SYMBOL(AFNetworkingTaskDidCompleteResponseDataKey)
-#endif
-
-#ifndef AFNetworkingTaskDidCompleteErrorKey
-#define AFNetworkingTaskDidCompleteErrorKey __NS_SYMBOL(AFNetworkingTaskDidCompleteErrorKey)
-#endif
-
-#ifndef AFNetworkingTaskDidCompleteAssetPathKey
-#define AFNetworkingTaskDidCompleteAssetPathKey __NS_SYMBOL(AFNetworkingTaskDidCompleteAssetPathKey)
-#endif
-
-#ifndef AFNetworkingTaskDidFinishSerializedResponseKey
-#define AFNetworkingTaskDidFinishSerializedResponseKey __NS_SYMBOL(AFNetworkingTaskDidFinishSerializedResponseKey)
-#endif
-
-#ifndef AFNetworkingTaskDidFinishResponseSerializerKey
-#define AFNetworkingTaskDidFinishResponseSerializerKey __NS_SYMBOL(AFNetworkingTaskDidFinishResponseSerializerKey)
-#endif
-
-#ifndef AFNetworkingTaskDidFinishResponseDataKey
-#define AFNetworkingTaskDidFinishResponseDataKey __NS_SYMBOL(AFNetworkingTaskDidFinishResponseDataKey)
-#endif
-
-#ifndef AFNetworkingTaskDidFinishErrorKey
-#define AFNetworkingTaskDidFinishErrorKey __NS_SYMBOL(AFNetworkingTaskDidFinishErrorKey)
-#endif
-
-#ifndef AFNetworkingTaskDidFinishAssetPathKey
-#define AFNetworkingTaskDidFinishAssetPathKey __NS_SYMBOL(AFNetworkingTaskDidFinishAssetPathKey)
-#endif
+//#ifndef AFNetworkingTaskDidFinishResponseDataKey
+//#define AFNetworkingTaskDidFinishResponseDataKey __NS_SYMBOL(AFNetworkingTaskDidFinishResponseDataKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidFinishErrorKey
+//#define AFNetworkingTaskDidFinishErrorKey __NS_SYMBOL(AFNetworkingTaskDidFinishErrorKey)
+//#endif
+//
+//#ifndef AFNetworkingTaskDidFinishAssetPathKey
+//#define AFNetworkingTaskDidFinishAssetPathKey __NS_SYMBOL(AFNetworkingTaskDidFinishAssetPathKey)
+//#endif
 
 #ifndef labelWidth
 #define labelWidth __NS_SYMBOL(labelWidth)
@@ -3320,9 +3320,9 @@
 #define AFURLRequestSerializationErrorDomain __NS_SYMBOL(AFURLRequestSerializationErrorDomain)
 #endif
 
-#ifndef AFNetworkingOperationFailingURLRequestErrorKey
-#define AFNetworkingOperationFailingURLRequestErrorKey __NS_SYMBOL(AFNetworkingOperationFailingURLRequestErrorKey)
-#endif
+//#ifndef AFNetworkingOperationFailingURLRequestErrorKey
+//#define AFNetworkingOperationFailingURLRequestErrorKey __NS_SYMBOL(AFNetworkingOperationFailingURLRequestErrorKey)
+//#endif
 
 #ifndef kCRToastNotificationTypeKey
 #define kCRToastNotificationTypeKey __NS_SYMBOL(kCRToastNotificationTypeKey)
